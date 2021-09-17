@@ -1,19 +1,14 @@
-*/
-var watermark = body => {
-    try {
-        body.replace(/\"room_id\":(\d{2,})/g, '"room_id":"$1"');
-        let obj = JSON.parse(body);
-        if (obj.data) obj.data = Follow(obj.data);
-        if (obj.aweme_list) obj.aweme_list = Feed(obj.aweme_list);
-        if (obj.aweme_detail) obj.aweme_detail = Share(obj.aweme_detail);
-        if (obj.aweme_details) obj.aweme_details = Feed(obj.aweme_details);
-        $done({ body: JSON.stringify(obj) });
+try {
+    let body = $response.body.replace(/\"room_id\":(\d{2,})/g, '"room_id":"$1"');
+    let obj = JSON.parse(body);
+    if (obj.data) obj.data = Follow(obj.data);
+    if (obj.aweme_list) obj.aweme_list = Feed(obj.aweme_list);
+    if (obj.aweme_detail) obj.aweme_detail = Share(obj.aweme_detail);
+    $done({ body: JSON.stringify(obj) });
 } catch (err) {
-        console.log("aaaaa!!!!\n" + err);
-        $done({});
-    }
+    console.log("aaaaa!!!!\n" + err);
+    $done({});
 }
-watermark($response.body);
 
 function Follow(data) {
     if (data && data.length > 0) {
@@ -23,7 +18,6 @@ function Follow(data) {
     }
     return data;
 }
-// 电报群：https://t.me/baipiao_666
 
 function Feed(aweme_list) {
     if (aweme_list && aweme_list.length > 0) {
