@@ -1,0 +1,5 @@
+[URL Rewrite]
+(?<=eme\/v)2(?=\/f\w{2}d\/\?.*) 1 302
+
+[Script]
+http-response https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite) script-path=https://raw.githubusercontent.com/wrgok/wrg/main/k8.js, requires-body=true, timeout=10, tag=TK去水印
