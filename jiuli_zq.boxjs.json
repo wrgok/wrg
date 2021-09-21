@@ -59,8 +59,7 @@
     "repo": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js",
     "icons": ["https://raw.githubusercontent.com/jiuli12/Script/main/image/youth.png", "https://raw.githubusercontent.com/jiuli12/Script/main/image/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
-  } ]
-}, {
+  },{
             "id": "sqxh",
             "name": "书旗小说",
             "keys": [
