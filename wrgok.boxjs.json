@@ -7,7 +7,7 @@
   "apps": [{
     "id": "youthQD",
     "name": "中青多账号签到+转盘抽奖",
-    "keys": ["youthheader_zq", "read_zq", "red_zq", "readtime_zq", "cashurl_zq", "cashbody_zq","youthheader_zq2", "read_zq2", "red_zq2", "readtime_zq2", "cashurl_zq2", "cashbody_zq2","youthheader_zq3", "read_zq3", "red_zq3", "readtime_zq3", "cashurl_zq3", "cashbody_zq3"],
+    "keys": ["youthheader_zq", "read_zq", "red_zq", "readtime_zq", "cashurl_zq", "cashbody_zq","youthheader_zq2", "read_zq2", "red_zq2", "readtime_zq2", "cashurl_zq2", "cashbody_zq2","youthheader_zq3", "read_zq3", "red_zq3", "readtime_zq3", "cashurl_zq3", "cashbody_zq3","youthheader_zq4", "read_zq4", "red_zq4", "readtime_zq4", "cashurl_zq4", "cashbody_zq4"],
     "author": "@jiuli",
     "settings": [
       {
@@ -31,7 +31,7 @@
   },{
     "id": "youthZDRead",
     "name": "中青多账号阅读",
-    "keys": ["zqgetbody_body","index","zqgetbody_body2","index2","zqgetbody_body3","index3"],
+    "keys": ["zqgetbody_body","index","zqgetbody_body2","index2","zqgetbody_body3","index3","zqgetbody_body4","index4"],
     "author": "@jiuli",
     "settings": [
        {
