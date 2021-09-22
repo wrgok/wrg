@@ -3,7 +3,7 @@
   "name": "自用应用订阅",
   "author": "@wrgok",
   "icon": "",
-  "repo": "https://github.com/jiuli12/Script",
+  "repo": "https://github.com/wrgok/wrg",
   "apps": [{
     "id": "youthQD",
     "name": "中青多账号签到+转盘抽奖",
