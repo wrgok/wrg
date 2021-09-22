@@ -3,7 +3,7 @@
   "name": "自用应用订阅",
   "author": "@wrgok",
   "icons": [""]
-  "repo": "https://github.com/wrgok/wrg",
+  "repo":"https://github.com/wrgok/wrg",
   "apps": [{
     "id": "youthQD",
     "name": "中青多账号签到+转盘抽奖",
@@ -60,3 +60,6 @@
     "repo": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js",
     "icons":  ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", 
               "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"],
+    "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
+  } ]
+}
