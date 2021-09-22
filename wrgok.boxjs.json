@@ -2,7 +2,7 @@
   "id": "jiuli.app.sub",
   "name": "自用应用订阅",
   "author": "@wrgok",
-  "icon": [""]
+  "icons": [""]
   "repo": "https://github.com/wrgok/wrg",
   "apps": [{
     "id": "youthQD",
