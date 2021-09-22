@@ -26,8 +26,7 @@
       }
     ],
     "repo": "https://raw.githubusercontent.com/jiuli12/Script/main/youth.js",
-    "icons": ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", 
-              "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"],
+    "icons": ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/youth.js"
   },{
     "id": "youthZDRead",
@@ -58,8 +57,7 @@
       }
     ],
     "repo": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js",
-    "icons":  ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", 
-              "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"],
+    "icons": ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
   } ]
 }
