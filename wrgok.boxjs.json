@@ -2,7 +2,8 @@
   "id": "jiuli.app.sub",
   "name": "自用应用订阅",
   "author": "@wrgok",
-  "icon": "",
+  "icons": ["https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", 
+            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"]
   "repo": "https://github.com/wrgok/wrg",
   "apps": [{
     "id": "youthQD",
@@ -11,7 +12,7 @@
     "author": "@jiuli",
     "settings": [
       {
-        "id": "zqSuffix",
+        "id": "zqSuffix",l
         "name": "当前账号",
         "val": "1",
         "type": "number",
