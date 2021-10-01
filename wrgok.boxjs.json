@@ -44,7 +44,7 @@
   "apps": [{
       "id": "youthCk",
       "name": "中青数据",
-      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4"],
+      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4", "youthheader_zq5", "read_zq5", "readtime_zq5", "youthheader_zq6", "read_zq6", "readtime_zq6"],
       "descs_html": [
         "多账号脚本地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/youth.js\">中青看点极速版</a>】",
         "中青多账号ck抓取步骤：",
@@ -84,7 +84,7 @@
       "descs_html": [
         "⚠️：带有android字眼的会话数据是抓安卓设备的app数据包的，只用ios的话，无视它的存在吧"
       ],
-      "keys": ["youth_banner", "youth_android_readtime", "youth_android_reward", "youth_android_newtask", "youth_banner2", "youth_android_readtime2", "youth_android_reward2", "youth_android_newtask2", "youth_banner3", "youth_android_readtime3", "youth_android_reward3", "youth_android_newtask3", "youth_banner4", "youth_android_readtime4", "youth_android_reward4", "youth_android_newtask4"],
+      "keys": ["youth_banner","youth_banner2","youth_banner3","youth_banner4"],
       "author": "@ztxtop",
       "settings": [{
         "id": "delErrorData",
