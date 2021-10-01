@@ -25,7 +25,7 @@
         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
       }
     ],
-    "repo": "https://raw.githubusercontent.com/jiuli12/Script/main/youth.js",
+    "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youth.js",
     "icons": ["https://raw.githubusercontent.com/jiuli12/Script/main/image/youth.png", "https://raw.githubusercontent.com/jiuli12/Script/main/image/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/youth.js"
   },{
@@ -56,7 +56,7 @@
         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
       }
     ],
-    "repo": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js",
+    "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youthRead.js",
     "icons": ["https://raw.githubusercontent.com/jiuli12/Script/main/image/youth.png", "https://raw.githubusercontent.com/jiuli12/Script/main/image/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
   } ]
