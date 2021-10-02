@@ -1,6 +1,6 @@
 {
   "id": "jiuli.app.sub",
-  "name": "自用应用订阅",
+  "name": "自用中青订阅",
   "author": "@wrgok",
   "icon": "",
   "repo": "https://github.com/wrgok/wrg",
@@ -33,7 +33,7 @@
         "type": "text",
         "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
       }],
-      "repo": "https://github.com/ztxtop/x/blob/main/youth.js",
+      "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youth.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
     },{
@@ -59,7 +59,7 @@
           }
         ]
       }],
-      "repo": "https://github.com/ztxtop/x/blob/main/youth_banner.js",
+      "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youth_banner.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
     },{
