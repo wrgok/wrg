@@ -98,6 +98,18 @@
         "val": "0",
         "type": "number",
         "desc": "账号4阅读数据总行数"
+      }, {
+        "id": "read_count5",
+        "name": "账号5总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号5阅读数据总行数"
+      }, {
+        "id": "read_count6",
+        "name": "账号4总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号6阅读数据总行数"
       }],
       "repo": "https://github.com/ztxtop/x/blob/main/zqread.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
