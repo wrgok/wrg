@@ -99,8 +99,7 @@ function GetCookie(){
 			   }else{
 				   bodys=articlebodyVal;
 			   }
-			   $.setdata(bodys,"zqgetbody_body"+$.idx)
-			   $.msg($.idx,`成功,当前body${YBody.length+1}`)
+			   $.msg($.idx,`成功🎉,当前body${YBody.length+1}`)
 		  }
 	}
 }
