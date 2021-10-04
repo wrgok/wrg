@@ -47,6 +47,10 @@
       ],
       "author": "@ztxtop",
       "settings": [{
+          "id": "zqReadLog",
+          "name": "通知",
+          "val": false,
+      }, {
         "id": "readMode",
         "name": "执行模式（点击查看设置说明）",
         "val": "0",
