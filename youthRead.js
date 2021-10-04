@@ -91,7 +91,7 @@ function GetCookie(){
 			   let bodys=$.getdata("zqgetbody_body"+$.idx);
 			   if(bodys){
 				  if(bodys.indexOf(articlebodyVal)!=-1){
-				  	$.msg($.name + $.idx,`添加阅读请求: 失败🎉,body重复跳过`)
+				  	$.msg($.idx,`失败🎉,body重复跳过`)
 				  	$.done();
 				  }
 				  YBody = bodys.split('&');
@@ -100,7 +100,7 @@ function GetCookie(){
 				   bodys=articlebodyVal;
 			   }
 			   $.setdata(bodys,"zqgetbody_body"+$.idx)
-			   $.msg($.name + $.idx,`添加阅读请求: 成功🎉,当前body${YBody.length+1}`)
+			   $.msg($.idx,`成功🎉,当前body${YBody.length+1}`)
 		  }
 	}
 }
