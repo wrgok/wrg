@@ -50,6 +50,8 @@
           "id": "zqReadLog",
           "name": "通知",
           "val": false,
+          "type": "boolean",
+          "desc": "通知开关，30秒一次,较频繁！建议关闭。"
       }, {
         "id": "readMode",
         "name": "执行模式（点击查看设置说明）",
