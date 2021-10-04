@@ -47,7 +47,7 @@
       ],
       "author": "@ztxtop",
       "settings": [{
-          "id": "zqReadLog",
+          "id": "zqReadLog1",
           "name": "通知",
           "val": false,
           "type": "boolean",
