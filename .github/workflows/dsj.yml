@@ -24,7 +24,7 @@ jobs:
           curl ipinfo.io/json
       - name: '【dsj】'
         run: |
-          cd ~/.github/workflows
+          cd ~/js/Task
           node dsj.js
         env:
           ENCRYPT_KEY: ${{ secrets.ENCRYPT_KEY }}
