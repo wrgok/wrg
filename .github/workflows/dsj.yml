@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://raw.githubusercontent.com/wrgok/wrg/main/.github/workflows/dsj.js        
+          git clone https://github.com/wrgok/wrg.git ~/js 
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
@@ -24,7 +24,7 @@ jobs:
           curl ipinfo.io/json
       - name: '【dsj】'
         run: |
-          cd ~/js/Task   
+          cd ~/wrg
           node dsj.js
         env:
           ENCRYPT_KEY: ${{ secrets.ENCRYPT_KEY }}
