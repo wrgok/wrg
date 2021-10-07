@@ -16,7 +16,7 @@ let middledsjHEADER = [];
 
 
 
-dsjheaderArr = ['{"Accept": "*/*","Accept-Encoding": "gzip, deflate","Accept-Language": "zh-Hans;q=1","AppVerCode": "236","AppVerName": "1.96","Authorization": "T1RWaE56VTJZelk1TnpneU16QXhNMkprWkRNMllXUm1ZekE0Tm1GbU4yRT18MTYzMDk5MDgxMzc4MTA0MzA1OHw0MjMxMDkyMmFmZDVjYjFlZjM2YjkzODMzYmM4MzZiZDM2N2U3NmNi","Cache-Control": "no-cache","Connection": "close","Generation": "com.dianshijia.mobile.ios","Host": "user.gaoqingdianshi.com","MarketChannelName": "Iphone","User-Agent": "Dsj/Client1.2","appId": "19227f89ea1a166451593601eb8a1b4f","areaCode": "420000","cityCode": "420900","countryCode": "CN","cuuid": "3612f9316166d5a162accea960c34881","erid": "61131","ethMac": "","gpsCityCode": "420900","hwBrand": "iPhone","hwMac": "","hwModel": "iPhone11,2","ispId": "","language": "zh_CN","routerMac": "e02481a23624","ssid": "f051e12e-b7d5-4381-84e8-e28c4f2ff5a9","userid": "62d5897fae73120cda6cae02e53f6739","uuid": "b963e558667e44ea908663230a232e82"}']
+dsjheaderArr = ['a9720413c5a94fccddff840635d61228&WW1SaFlqYzNOelpoTmpjNE16WXdPV0V6WW1SbE1XUTNPRGcyT0RJME5UZz18MTYyNDM4NDE5MDgyODI2MDkxOXw2YWNlNTZiY2IxZDdkYTZhNWZhZWMyMTkzNWM1ZGI5YWIxNDU4NTE1']
 
 console.log(`${GXRZ}\n`);
 $.message += `${GXRZ}\n`
