@@ -32,27 +32,7 @@
         "val": "1",
         "type": "text",
         "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
-      }, {
-          "id": "zqcash", 
-          "val": "30", 
-          "name": "提现金额", 
-          "type": "radios", 
-          "desc": "自动提现金额需和获取提现请求保持一致", 
-          "items": [
-            {
-              "key": "10", 
-              "label": "10元"
-            }, 
-            {
-              "key": "30", 
-              "label": "30元"
-            }, 
-            {
-              "key": "100", 
-              "label": "100元"
-            }
-          ]
-       }],
+      }],
       "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youth.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
@@ -105,19 +85,8 @@
           "name": "通知频率 (点击查看设置说明)", 
           "type": "number", 
           "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
-        }, {
-        "id": "zqSuffix",
-        "name": "抓包账号",
-        "val": "1",
-        "type": "number",
-        "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
-      }, {
-        "id": "zqExecAc",
-        "name": "中青执行账号",
-        "val": "1",
-        "type": "text",
-        "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
-      }, {
+        }, 
+        {
           "id": "zqcash", 
           "val": "30", 
           "name": "提现金额", 
