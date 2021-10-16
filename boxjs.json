@@ -32,32 +32,6 @@
       "author": "",
       "repo": "https://github.com/dompling/Script",
       "script": ""
-    },
-    {
-      "id": "JD_UA",
-      "name": "自定义京东脚本的UserAgent",
-      "keys": [
-        "JDUA"
-      ],
-      "descs_html": [
-        "自行抓包京东APP获得，UserAgent类似下面：",
-        "jdapp;iPhone;9.3.0;14.2;network/4g;Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1"
-      ],
-      "settings": [
-        {
-          "id": "JDUA",
-          "name": "自定义京东脚本的UserAgent",
-          "val": "",
-          "type": "text",
-          "desc": "不懂不知不会UserAgent的请不要随意填写内容，如需填写使用建议使用京东APP的UserAgent"
-        }
-      ],
-      "author": "",
-      "repo": "",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/jd.png",
-        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"
-      ]
     }, {
       "id": "youthCk",
       "name": "中青数据",
