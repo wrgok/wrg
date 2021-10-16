@@ -7,7 +7,7 @@
   "apps": [{
       "id": "youthCk",
       "name": "中青数据",
-      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4", "youthheader_zq5", "read_zq5", "readtime_zq5", "youthheader_zq6", "read_zq6", "readtime_zq6"],
+      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "zqcash", "youthheader_zq2", "read_zq2", "readtime_zq2", "zqcash2", "youthheader_zq3", "read_zq3", "readtime_zq3", "zqcash3", "youthheader_zq4", "read_zq4", "readtime_zq4", "zqcash4", "youthheader_zq5", "read_zq5", "readtime_zq5", "zqcash5", "youthheader_zq6", "read_zq6", "readtime_zq6", "zqcash6"],
       "descs_html": [
         "1、打开中青APP，进入“我的”=>“任务中心”抓取 youthheader_zq 数据、 进入任务中心里的看看赚，点任务进入页面即可获取看看赚数据、 进入看看赚页面顶部的浏览赚页面，点任务跳转浏览器时可获取浏览赚数据（中青app有可能不发起任务开始请求，那将无法抓包）",
         "2、在首页随便找个文章看看，超过1分钟后返回上一页面可获取时长数据，首次获取或时长数据记录的有效时间大于60秒时才会进行通知提醒",
@@ -27,6 +27,26 @@
         "type": "number",
         "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
       }, {
+          "id": "zqcash", 
+          "val": "30", 
+          "name": "提现金额", 
+          "type": "radios", 
+          "desc": "自动提现金额需和获取提现请求保持一致", 
+          "items": [
+            {
+              "key": "10", 
+              "label": "10元"
+            }, 
+            {
+              "key": "30", 
+              "label": "30元"
+            }, 
+            {
+              "key": "100", 
+              "label": "100元"
+            }
+          ]
+       }, {
         "id": "zqExecAc",
         "name": "中青执行账号",
         "val": "1",
@@ -36,7 +56,84 @@
       "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youth.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
-    } ,
+    } ,  
+    {
+      "author": "@sunert", 
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://github.com/Sunert/Scripts/raw/master/TaskConf/youth/readme.md\">配置说明</a></h4>", 
+        "<br />", 
+        "<p>其中<font color='#FF0000',font-weight: bold>zq_nick、zqcash</font>和<font color='#FF0000',font-weight: bold>zqcard</font>为昵称、提现金额和早起打卡开关，无需另外获取，相关项设置后自动生成，cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选</p>"
+      ], 
+      "keys": [
+        "zq_nick", 
+        "youthheader_zq", 
+        "read_zq", 
+        "readtime_zq", 
+        "cashurl_zq", 
+        "cashbody_zq", 
+        "zqcash", 
+        "zqcard"
+      ], 
+      "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js", 
+      "id": "youth", 
+      "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js", 
+      "settings": [
+        {
+          "id": "zqcard", 
+          "val": "false", 
+          "name": "打卡赚钱", 
+          "type": "boolean", 
+          "desc": "每日打卡报名及早起打卡"
+        }, 
+        {
+          "id": "zqtime", 
+          "val": "05", 
+          "name": "打卡时间", 
+          "type": "number", 
+          "desc": "每日早起打卡时间"
+        }, 
+        {
+          "id": "delay_rotary_zq", 
+          "val": "10", 
+          "name": "转盘时间间隔", 
+          "type": "number", 
+          "desc": "间隔时间设置，如1秒填1即可"
+        }, 
+        {
+          "id": "notifytimes", 
+          "val": "", 
+          "name": "通知频率 (点击查看设置说明)", 
+          "type": "number", 
+          "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+        }, 
+        {
+          "id": "zqcash", 
+          "val": "30", 
+          "name": "提现金额", 
+          "type": "radios", 
+          "desc": "自动提现金额需和获取提现请求保持一致", 
+          "items": [
+            {
+              "key": "10", 
+              "label": "10元"
+            }, 
+            {
+              "key": "30", 
+              "label": "30元"
+            }, 
+            {
+              "key": "100", 
+              "label": "100元"
+            }
+          ]
+        }
+      ], 
+      "name": "中青看点", 
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", 
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+      ]
+    }, 
     {
       "id": "youthNeRead",
       "name": "中青阅读",
