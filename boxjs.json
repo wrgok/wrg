@@ -280,5 +280,108 @@
     "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youthRead.js",
     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
+  }, {
+    "id": "jrtt",
+    "name": "今日头条极速版",
+    "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey", "signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3"],
+    "author": "@Ariszy",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+       {
+        "id": "jrttsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "jrttcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/jrtt.js",
+    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
+    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js"
+  } ,
+  {
+    "id": "fqxs",
+    "name": "番茄小说",
+    "keys": ["fqxsurl", "fqxs","fqxsurl2","fqxs2","fqxsurl3","fqxs3","fqxsurl4","fqxs4","fqxsurl5","fqxs5","fqxsurl6","fqxs6","fqxsurl7","fqxs7","fqxsurl8","fqxs8","fqxsurl9","fqxs9","fqxsurl10","fqxs10","fqxsurl11","fqxs11","fqxsurl12","fqxs12","fqxsurl13","fqxs13","fqxsurl14","fqxs14","fqxsurl15","fqxs15","fqxsurl16","fqxs16","fqxsurl17","fqxs17","fqxsurl18","fqxs18","fqxsurl19","fqxs19","fqxsurl20","fqxs20"],
+    "author": "@Ariszy",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+      {
+        "id": "fqxsstatus",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },    
+      {
+        "id": "fqxscount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      },
+       {
+        "id": "host",
+        "name": "host",
+        "val": "ib.snssdk.com",
+        "type": "string",
+        "desc": "当前版本host"
+      } ],
+    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/fqxs.js",
+    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs.png"],
+    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js"
+  } ,
+  {
+    "id": "jxcollect",
+    "name": "京喜工厂电力收取",
+    "keys": ["jxcollecturl","jxcollecturl2", "jxcollecturl3", "jxcollecturl4", "jxcollecturl5",  "jxcollecturl6","jxcollecturl7", "jxcollecturl8", "jxcollecturl9","jxcollecturl10"],
+    "author": "@Ariszy",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+      {
+        "id": "jxcollectstatus",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "jxcollectcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      },
+       {
+        "id": "jxcollectdoublenum",
+        "name": "是否double领取",
+        "val": "0",
+        "type": "number",
+        "desc": "0为不double，1为double且必须满了运行才ok，否则火爆"
+      }         ],
+    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/jxcollect.js",
+    "icons": ["https://raw.githubusercontent.com/58xinian/icon/master/jdgc_mini.png","https://github.com/58xinian/icon/raw/master/jdgc.png"],
+    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jxcollect.js"
   } ]
 }
