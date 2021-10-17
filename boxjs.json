@@ -33,6 +33,42 @@
       "repo": "https://github.com/dompling/Script",
       "script": ""
     }, {
+    "id": "jxcollect",
+    "name": "京喜工厂电力收取",
+    "keys": ["jxcollecturl","jxcollecturl2", "jxcollecturl3", "jxcollecturl4", "jxcollecturl5",  "jxcollecturl6","jxcollecturl7", "jxcollecturl8", "jxcollecturl9","jxcollecturl10"],
+    "author": "@Ariszy",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+      {
+        "id": "jxcollectstatus",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "jxcollectcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      },
+       {
+        "id": "jxcollectdoublenum",
+        "name": "是否double领取",
+        "val": "0",
+        "type": "number",
+        "desc": "0为不double，1为double且必须满了运行才ok，否则火爆"
+      }         ],
+    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/jxcollect.js",
+    "icons": ["https://raw.githubusercontent.com/58xinian/icon/master/jdgc_mini.png","https://github.com/58xinian/icon/raw/master/jdgc.png"],
+    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jxcollect.js"
+  }, {
       "id": "youthCk",
       "name": "中青数据",
       "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4", "youthheader_zq5", "read_zq5", "readtime_zq5", "youthheader_zq6", "read_zq6", "readtime_zq6"],
@@ -346,42 +382,5 @@
     "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/fqxs.js",
     "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs.png"],
     "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js"
-  } ,
-  {
-    "id": "jxcollect",
-    "name": "京喜工厂电力收取",
-    "keys": ["jxcollecturl","jxcollecturl2", "jxcollecturl3", "jxcollecturl4", "jxcollecturl5",  "jxcollecturl6","jxcollecturl7", "jxcollecturl8", "jxcollecturl9","jxcollecturl10"],
-    "author": "@Ariszy",
-    "settings": [{
-            "id": "tz",
-            "name": "静默运行",
-            "val": "1",
-            "type": "number",
-            "desc": "0为不通知，1为全部通知"
-        },
-      {
-        "id": "jxcollectstatus",
-        "name": "当前账号",
-        "val": "1",
-        "type": "number",
-        "desc": "当前账号对应"
-      },
-      {
-        "id": "jxcollectcount",
-        "name": "账号个数",
-        "val": "1",
-        "type": "number",
-        "desc": "需要几个账号，数字为几"
-      },
-       {
-        "id": "jxcollectdoublenum",
-        "name": "是否double领取",
-        "val": "0",
-        "type": "number",
-        "desc": "0为不double，1为double且必须满了运行才ok，否则火爆"
-      }         ],
-    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/jxcollect.js",
-    "icons": ["https://raw.githubusercontent.com/58xinian/icon/master/jdgc_mini.png","https://github.com/58xinian/icon/raw/master/jdgc.png"],
-    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jxcollect.js"
   } ]
 }
