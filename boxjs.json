@@ -71,7 +71,7 @@
   }, {
       "id": "youthCk",
       "name": "中青数据",
-      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4", "youthheader_zq5", "read_zq5", "readtime_zq5", "youthheader_zq6", "read_zq6", "readtime_zq6"],
+      "keys": ["youthheader_zq", "read_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "readtime_zq4", "youthheader_zq5", "read_zq5", "readtime_zq5", "youthheader_zq6", "read_zq6", "readtime_zq6", "youthheader_zq7", "read_zq7", "readtime_zq7", "youthheader_zq8", "read_zq8", "readtime_zq8"],
       "descs_html": [
         "1、打开中青APP，进入“我的”=>“任务中心”抓取 youthheader_zq 数据、 进入任务中心里的看看赚，点任务进入页面即可获取看看赚数据、 进入看看赚页面顶部的浏览赚页面，点任务跳转浏览器时可获取浏览赚数据（中青app有可能不发起任务开始请求，那将无法抓包）",
         "2、在首页随便找个文章看看，超过1分钟后返回上一页面可获取时长数据，首次获取或时长数据记录的有效时间大于60秒时才会进行通知提醒",
@@ -265,7 +265,7 @@
       "descs_html": [
         "⚠️：带有android字眼的会话数据是抓安卓设备的app数据包的，只用ios的话，无视它的存在吧"
       ],
-      "keys": ["youth_banner", "youth_banner2", "youth_banner3", "youth_banner4", "youth_banner5", "youth_banner6"],
+      "keys": ["youth_banner", "youth_banner2", "youth_banner3", "youth_banner4", "youth_banner5", "youth_banner6", "youth_banner7", "youth_banner8"],
       "author": "@ztxtop",
       "settings": [{
         "id": "delErrorData",
@@ -288,7 +288,7 @@
     },{
     "id": "youthZDRead",
     "name": "中青多账号阅读",
-    "keys": ["zqgetbody_body","index","zqgetbody_body2","index2","zqgetbody_body3","index3","zqgetbody_body4","index4","zqgetbody_body5","index5","zqgetbody_body6","index6"],
+    "keys": ["zqgetbody_body","index","zqgetbody_body2","index2","zqgetbody_body3","index3","zqgetbody_body4","index4","zqgetbody_body5","index5","zqgetbody_body6","index6","zqgetbody_body7","index7","zqgetbody_body8","index8"],
     "author": "@jiuli",
     "settings": [
        {
