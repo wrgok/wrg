@@ -268,6 +268,24 @@
       "keys": ["youth_banner", "youth_banner2", "youth_banner3", "youth_banner4", "youth_banner5", "youth_banner6", "youth_banner7", "youth_banner8"],
       "author": "@ztxtop",
       "settings": [{
+        "id": "ckFormat",
+        "val": "",
+        "name": "新CK格式",
+        "type": "boolean",
+        "desc": "数据是否按新格式存储"
+      }, {
+        "id": "zqSuffix",
+        "name": "抓包账号",
+        "val": "1",
+        "type": "number",
+        "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
+      }, {
+        "id": "zqExecAc",
+        "name": "中青执行账号",
+        "val": "1",
+        "type": "text",
+        "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
+      },{
         "id": "delErrorData",
         "name": "移除当日失败两次+的任务数据",
         "val": "0",
