@@ -335,26 +335,9 @@
     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
   }, {
-
-      "name": "腾讯新闻", 
       "id": "txnews", 
+      "name": "腾讯新闻", 
       "author": "@sunert", 
-      "keys": [
-        "sy_signurl_txnews", 
-        "sy_cookie_txnews", 
-        "video_txnews", 
-        "txnews_id",
-
-        "sy_signurl_txnews2", 
-        "sy_cookie_txnews2", 
-        "video_txnews2", 
-        "txnews_id2",
-
-        "sy_signurl_txnews3", 
-        "sy_cookie_txnews3", 
-        "video_txnews3", 
-        "txnews_id3"
-      ], 
       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/txnews.js", 
       "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js", 
       "settings": [
@@ -373,7 +356,37 @@
           "name": "延迟时间(毫秒)", 
           "type": "number", 
           "desc": "接口延迟时间"
-        }
+        },
+        {
+        "id": "txnewsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+       },
+       {
+        "id": "txnewcount",
+        "name": "账号个数",
+        "val": "3",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }
+      ], 
+      "keys": [
+        "sy_signurl_txnews", 
+        "sy_cookie_txnews", 
+        "video_txnews", 
+        "txnews_id",
+
+        "sy_signurl_txnews2", 
+        "sy_cookie_txnews2", 
+        "video_txnews2", 
+        "txnews_id2",
+
+        "sy_signurl_txnews3", 
+        "sy_cookie_txnews3", 
+        "video_txnews3", 
+        "txnews_id3"
       ], 
       "icons": [
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/txnews.png", 
