@@ -335,6 +335,9 @@
     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
   }, {
+
+      "name": "腾讯新闻", 
+      "id": "txnews", 
       "author": "@sunert", 
       "keys": [
         "sy_signurl_txnews", 
@@ -353,7 +356,6 @@
         "txnews_id3"
       ], 
       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/txnews.js", 
-      "id": "txnews", 
       "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js", 
       "settings": [
         {
@@ -373,7 +375,6 @@
           "desc": "接口延迟时间"
         }
       ], 
-      "name": "腾讯新闻", 
       "icons": [
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/txnews.png", 
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/txnews.png"
