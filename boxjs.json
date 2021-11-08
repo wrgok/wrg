@@ -126,7 +126,17 @@
         "cashurl_zq", 
         "cashbody_zq", 
         "zqcash", 
-        "zqcard"
+        "zqcard",
+
+        "zq_nick2", 
+        "youthheader_zq2", 
+        "read_zq2", 
+        "readtime_zq2", 
+        "cashurl_zq2", 
+        "cashbody_zq2", 
+        "zqcash2", 
+        "zqcard2"
+
       ], 
       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js", 
       "id": "youth", 
