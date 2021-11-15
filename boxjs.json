@@ -448,7 +448,7 @@
     }],
     "author": "@cenbomin",
     "repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
-    "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js",
+    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstock.js",
     "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png", "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"]
   }, {
       "id": "txnews", 
