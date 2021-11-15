@@ -420,8 +420,8 @@
     "id": "txstockapp",
     "name": "腾讯自选股",
     "keys": [
-"TxStockAppUrl",  "TxStockWxHeader",  "TxStockCash", 
-"TxStockAppUrl2", "TxStockWxHeader2", "TxStockCash2"],
+"TxStockAppUrl",  "TxStockWxHeader",  "TxStockWxHeader", 
+"TxStockAppUrl2", "TxStockWxHeader2", "TxStockWxHeader2"],
     "settings": [{
                     "id": "txstockappSuffix",
                     "name": "当前账号",
