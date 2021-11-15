@@ -83,7 +83,9 @@
  "youthheader_zq10", "read_zq10", "readtime_zq10","cashurl_zq10", "cashbody_zq10", 
  "youthheader_zq11", "read_zq11", "readtime_zq11","cashurl_zq11", "cashbody_zq11",
  "youthheader_zq12", "read_zq12", "readtime_zq12","cashurl_zq12", "cashbody_zq12", 
- "youthheader_zq13", "read_zq13", "readtime_zq13","cashurl_zq13", "cashbody_zq13"], 
+ "youthheader_zq13", "read_zq13", "readtime_zq13","cashurl_zq13", "cashbody_zq13",
+ "youthheader_zq14", "read_zq14", "readtime_zq14","cashurl_zq14", "cashbody_zq14", 
+ "youthheader_zq15", "read_zq15", "readtime_zq15","cashurl_zq15", "cashbody_zq15"], 
       "descs_html": [
         "1、打开中青APP，进入“我的”=>“任务中心”抓取 youthheader_zq 数据、 进入任务中心里的看看赚，点任务进入页面即可获取看看赚数据、 进入看看赚页面顶部的浏览赚页面，点任务跳转浏览器时可获取浏览赚数据（中青app有可能不发起任务开始请求，那将无法抓包）",
         "2、在首页随便找个文章看看，超过1分钟后返回上一页面可获取时长数据，首次获取或时长数据记录的有效时间大于60秒时才会进行通知提醒",
@@ -290,7 +292,9 @@
  "youth_banner10",
  "youth_banner11",
  "youth_banner12",
- "youth_banner13"],
+ "youth_banner13",
+ "youth_banner14",
+ "youth_banner15"],
       "author": "@ztxtop",
       "settings": [{
         "id": "ckFormat",
@@ -343,7 +347,9 @@
 "zqgetbody_body10","index10",
 "zqgetbody_body11","index11",
 "zqgetbody_body12","index12",
-"zqgetbody_body13","index13"],
+"zqgetbody_body13","index13",
+"zqgetbody_body12","index14",
+"zqgetbody_body13","index15"],
     "author": "@jiuli",
     "settings": [
        {
@@ -371,7 +377,44 @@
     "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youthRead.js",
     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
-  }, {
+  }, { 
+    "id": "ysy",
+        "name": "萤石云",
+            "keys": ["ysyhd","ysybody","cookie","txbody",
+"ysyhd2","ysybody2","cookie2","txbody2",
+"ysyhd3","ysybody3","cookie3","txbody3",
+"ysyhd4","ysybody4","cookie4","txbody4",
+"ysyhd5","ysybody5","cookie5","txbody5",
+"ysyhd6","ysybody6","cookie6","txbody6",
+"ysyhd7","ysybody7","cookie7","txbody7",
+"ysyhd8","ysybody8","cookie8","txbody8",
+"ysyhd9","ysybody9","cookie9","txbody9",
+"ysyhd10","ysybody10","cookie10","txbody10",
+"ysyhd11","ysybody11","cookie11","txbody11"],
+                "author": "@YaphetS0903",
+                    "settings": [{
+                        "id": "ysystatus",
+                        "name": "当前账号",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+                    }, {
+                        "id": "ysycount",
+                        "name": "账号个数",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                    }, {
+                        "id": "tz",
+                        "name": "通知",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "0关闭通知，1打开通知"
+                    }],
+                        "repo": "https://github.com/YaphetS0903/JStest/blob/main/ysy.js",
+            "icons": ["https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg", "https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg"],
+            "script": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js"
+       }, {
       "id": "txnews", 
       "name": "腾讯新闻", 
       "author": "@sunert", 
@@ -732,43 +775,6 @@
             "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/txwzq.js",
             "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png", "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"],
             "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/txwzq.js"
-        },{ 
-    "id": "ysy",
-        "name": "萤石云",
-            "keys": ["ysyhd","ysybody","cookie","txbody",
-"ysyhd2","ysybody2","cookie2","txbody2",
-"ysyhd3","ysybody3","cookie3","txbody3",
-"ysyhd4","ysybody4","cookie4","txbody4",
-"ysyhd5","ysybody5","cookie5","txbody5",
-"ysyhd6","ysybody6","cookie6","txbody6",
-"ysyhd7","ysybody7","cookie7","txbody7",
-"ysyhd8","ysybody8","cookie8","txbody8",
-"ysyhd9","ysybody9","cookie9","txbody9",
-"ysyhd10","ysybody10","cookie10","txbody10",
-"ysyhd11","ysybody11","cookie11","txbody11"],
-                "author": "@YaphetS0903",
-                    "settings": [{
-                        "id": "ysystatus",
-                        "name": "当前账号",
-                        "val": "1",
-                        "type": "number",
-                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-                    }, {
-                        "id": "ysycount",
-                        "name": "账号个数",
-                        "val": "1",
-                        "type": "number",
-                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                    }, {
-                        "id": "tz",
-                        "name": "通知",
-                        "val": "1",
-                        "type": "number",
-                        "desc": "0关闭通知，1打开通知"
-                    }],
-                        "repo": "https://github.com/YaphetS0903/JStest/blob/main/ysy.js",
-            "icons": ["https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg", "https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg"],
-            "script": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js"
-       }
+        }
     ]
 }
