@@ -419,9 +419,23 @@
        }, {
     "id": "txstockapp",
     "name": "腾讯自选股",
-    "keys": ["TxStockAppUrl", "TxStockWxHeader", "TxStockCash", "TxStockNewbie", "TxStockHelp", "TxStockHelpOrder",
-"TxStockAppUrl2", "TxStockWxHeader2", "TxStockCash2", "TxStockNewbie2", "TxStockHelp2", "TxStockHelpOrder2"],
+    "keys": [
+"TxStockAppUrl",  "TxStockWxHeader",  "TxStockCash", 
+"TxStockAppUrl2", "TxStockWxHeader2", "TxStockCash2"],
     "settings": [{
+                    "id": "txstockappSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "txstockappCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },{
       "id": "TxStockCash",
       "name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
       "val": "",
@@ -441,7 +455,7 @@
       "desc": "默认为0,不做分享互助"
      },{
       "id": "TxStockHelpOrder",
-      "name": "按顺序填入要帮助的用户，0代表不帮助其他用户，每个用户之间用@或者#隔开",
+      "name": "按顺序填入要帮助的用户，0代表不帮助，每个用户之间用@或者#隔开",
       "val": "",
       "type": "number",
       "desc": "默认为0,不做帮助任务"
