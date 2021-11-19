@@ -420,25 +420,25 @@
        }, {
             "id": "jzread",
             "name": "柠檬九章",
-            “键”：[“jzreadurl”，“jzreadurl2”，“jzreadurl3”，“jzreadurl4”，“jzreadurl5”，“jzreadurl6”，“jzreadurl7”，“jzreadurl8”，“jzreadurl9”，“jzreadurl10”]，
+            “keys”：[“jzreadurl”，“jzreadurl2”，“jzreadurl3”，“jzreadurl4”，“jzreadurl5”，“jzreadurl6”，“jzreadurl7”，“jzreadurl8”，“jzreadurl9”，“jzreadurl10”]，
             "author": "@ningmeng",
-            “设置”：[{
+            “ settings”：[{
             "id": "jzreadstatus",
             "name": "当前账号",
             "val": "1",
-            "类型": "数量",
+            "type": "number",
             "desc": "当前账号对应"
     },
     {
             "id": "jzreadcount",
             "name": "账号个数",
             "val": "1",
-            "类型": "数量",
+            "type": "number",
             "desc": "需要几个账号，数字为几"
     }],
             "repo": "http://47.101.146.160/scripts/jzread.js",
-            "图标": ["http://47.101.146.160/scripts/1.jpg", "http://47.101.146.160/scripts/1.jpg"],
-            “脚本”：“http://47.101.146.160/scripts/jzread.js”
+            "icons": ["http://47.101.146.160/scripts/1.jpg", "http://47.101.146.160/scripts/1.jpg"],
+            “script”：“http://47.101.146.160/scripts/jzread.js”
     }, {
     "id": "txstockapp",
     "name": "腾讯自选股",
