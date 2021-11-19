@@ -420,9 +420,9 @@
        }, {
             "id": "jzread",
             "name": "柠檬九章",
-            “keys”：[“jzreadurl”,“jzreadurl2”,“jzreadurl3”,“jzreadurl4”,“jzreadurl5”,“jzreadurl6”,“jzreadurl7”,“jzreadurl8”,“jzreadurl9”,“jzreadurl10”],
+            "keys": ["jzreadurl", "jzreadurl2", "jzreadurl3","jzreadurl4","jzreadurl5", "jzreadurl6", "jzreadurl7","jzreadurl8","jzreadurl9","jzreadurl10"],
             "author": "@ningmeng",
-            “settings”：[{
+            "settings": [{
             "id": "jzreadstatus",
             "name": "当前账号",
             "val": "1",
@@ -438,7 +438,7 @@
     }],
             "repo": "http://47.101.146.160/scripts/jzread.js",
             "icons": ["http://47.101.146.160/scripts/1.jpg", "http://47.101.146.160/scripts/1.jpg"],
-            “script”：“http://47.101.146.160/scripts/jzread.js”
+            "script": "http://47.101.146.160/scripts/jzread.js"
     }, {
     "id": "txstockapp",
     "name": "腾讯自选股",
