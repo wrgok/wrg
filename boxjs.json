@@ -419,7 +419,7 @@
             "script": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js"
        }, {
             "id": "jzread",
-            "name": "柠檬九章",
+            "name": "九章",
             "keys": ["jzreadurl", "jzreadurl2", "jzreadurl3","jzreadurl4","jzreadurl5", "jzreadurl6", "jzreadurl7","jzreadurl8","jzreadurl9","jzreadurl10"],
             "author": "@ningmeng",
             "settings": [{
