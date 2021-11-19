@@ -730,7 +730,7 @@
         },{
             "id": "rl",
             "name": "燃旅视频",
-            "keys": ["rlurl", "rlurl2", "rlurl3"],
+            "keys": ["rlurl", "rlurl2", "rlurl3", "rlurl4", "rlurl5"],
             "author": "@ziye",
             "settings": [{
                     "id": "rlSuffix",
