@@ -453,7 +453,29 @@
                         "repo": "https://github.com/YaphetS0903/JStest/blob/main/ysy.js",
             "icons": ["https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg", "https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg"],
             "script": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js"
-       },{
+       }, {
+             "id": "jzread",
+             "name": "九章",
+             "keys": ["jzreadurl", "jzreadurl2", "jzreadurl3","jzreadurl4","jzreadurl5", "jzreadurl6", "jzreadurl7","jzreadurl8","jzreadurl9","jzreadurl10"],
+             "author": "@ningmeng",
+             "settings": [{
+             "id": "jzreadstatus",
+             "name": "当前账号",
+             "val": "1",
+             "type": "number",
+             "desc": "当前账号对应"
+     },
+     {
+             "id": "jzreadcount",
+             "name": "账号个数",
+             "val": "1",
+             "type": "number",
+             "desc": "需要几个账号，数字为几"
+     }],
+             "repo": "http://47.101.146.160/scripts/jzread.js",
+             "icons": ["http://47.101.146.160/scripts/1.jpg", "http://47.101.146.160/scripts/1.jpg"],
+             "script": "http://47.101.146.160/scripts/jzread.js"
+     },{
       "id": "txnews", 
       "name": "腾讯新闻", 
       "author": "@sunert", 
