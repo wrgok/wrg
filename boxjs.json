@@ -475,7 +475,48 @@
              "repo": "http://47.101.146.160/scripts/jzread.js",
              "icons": ["http://47.101.146.160/scripts/1.jpg", "http://47.101.146.160/scripts/1.jpg"],
              "script": "http://47.101.146.160/scripts/jzread.js"
-     },{
+     }, {
+    "id": "xl2101200.app.sub",
+        "name": "Leaf 脚本订阅",
+            "author": "@Leaf",
+                "icon": "https://gitee.com/tom210120/tom/raw/master/Tom/tom.png",
+                    "repo": "https://github.com/leafxcy/JavaScript",
+                        "apps": [
+                            {
+                                "id": "txzxg",
+                                "name": "腾讯自选股APP",
+                                "keys": ["TxStockAppUrl", "TxStockAppHeader", "TxStockWxHeader"],
+                                "author": "@Leaf",
+                                "settings": [{
+                                    "id": "TxStockCash",
+                                    "name": "提现设置",
+                                    "val": "1",
+                                    "type": "number",
+                                    "desc": "0代表不提现，1代表提现1元，5代表提现5元"
+                                }, {
+                                    "id": "TxStockHelp",
+                                    "name": "分享任务设置",
+                                    "val": "1",
+                                    "type": "number",
+                                    "desc": "0关闭，1打开，默认打开"
+                                }, {
+                                    "id": "TxStockHelpOrder",
+                                    "name": "互助顺序设置",
+                                    "val": "0",
+                                    "type": "number",
+                                    "desc": "按顺序填入要帮助的用户，0代表不帮助其他用户，每个用户之间用@或者#隔开"
+                                }, {
+                                    "id": "TxStockNewbie",
+                                    "name": "新手任务设置",
+                                    "val": "0",
+                                    "type": "number",
+                                    "desc": "0关闭，1打开，默认关闭"
+                                }],
+                                "repo": "https://github.com/leafxcy/JavaScript/blob/main/txstock.js",
+                                "icons": ["https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg", "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"],
+                                "script": "https://github.com/leafxcy/JavaScript/blob/main/txstock.js",
+                                "icon": "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"
+                            },{
       "id": "txnews", 
       "name": "腾讯新闻", 
       "author": "@sunert", 
