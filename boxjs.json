@@ -413,13 +413,6 @@
     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
   }, {
-    "id": "xl2101200.app.sub",
-        "name": "Leaf 脚本订阅",
-            "author": "@Leaf",
-                "icon": "https://gitee.com/tom210120/tom/raw/master/Tom/tom.png",
-                    "repo": "https://github.com/leafxcy/JavaScript",
-                        "apps": [
-                            {
                                 "id": "txzxg",
                                 "name": "腾讯自选股APP",
                                 "keys": ["TxStockAppUrl", "TxStockAppHeader", "TxStockWxHeader"],
@@ -453,17 +446,7 @@
                                 "icons": ["https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg", "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"],
                                 "script": "https://github.com/leafxcy/JavaScript/blob/main/txstock.js",
                                 "icon": "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"
-                            }
-                        
-                            
-
-
-
-
-
-
-                        ]
-},{ 
+                            },{ 
     "id": "ysy",
         "name": "萤石云",
             "keys": ["ysyhd","ysybody","cookie","txbody",
