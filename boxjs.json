@@ -816,8 +816,7 @@
             "name": "天天答题",
             "keys": [
 "ttdtbody", "ttdttoken", "ttdtbody2", "ttdttoken2", "ttdtbody3", "ttdttoken3", 
-"ttdtbody4", "ttdttoken4", "ttdtbody5", "ttdttoken5", "ttdtbody6", "ttdttoken6",
-"ttdtbody7", "ttdttoken7", "ttdtbody8", "ttdttoken8", "ttdtbody9", "ttdttoken9"],
+"ttdtbody4", "ttdttoken4", "ttdtbody5", "ttdttoken5", "ttdtbody6", "ttdttoken6"],
             "author": "@YaphetS0903",
             "settings": [
                 {
