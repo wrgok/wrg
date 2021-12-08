@@ -815,8 +815,13 @@
             "id": "ttdt",
             "name": "天天答题",
             "keys": [
-"ttdtbody", "ttdttoken", "ttdtbody2", "ttdttoken2", "ttdtbody3", "ttdttoken3", 
-"ttdtbody4", "ttdttoken4", "ttdtbody5", "ttdttoken5", "ttdtbody6", "ttdttoken6"],
+"ttdtbody", "ttdttoken",
+"ttdtbody2", "ttdttoken2", 
+"ttdtbody3", "ttdttoken3", 
+"ttdtbody4", "ttdttoken4",
+"ttdtbody5", "ttdttoken5", 
+"ttdtbody6", "ttdttoken6", 
+"ttdtbody7", "ttdttoken7"],
             "author": "@YaphetS0903",
             "settings": [
                 {
