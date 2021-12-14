@@ -546,7 +546,7 @@
     }, {
     "id": "jrtt",
     "name": "今日头条极速版",
-    "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey", "signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3", "signurl4", "signkey4", "farmurl4", "farmkey4", "readurl4", "readkey4"],
+    "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey",  "jrttjsbHeader","signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2",  "jrttjsbHeader2", "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3",  "jrttjsbHeader3","signurl4", "signkey4", "farmurl4", "farmkey4", "readurl4", "readkey4" "jrttjsbHeader4",],
     "author": "@Ariszy",
     "settings": [{
             "id": "tz",
