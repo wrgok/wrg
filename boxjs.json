@@ -576,7 +576,7 @@
     "id": "jrtt",
     "name": "今日头条极速版1",
     "keys": [
-"jrttjsbHeader",
+ "jrttjsbHeader",
  "jrttjsbHeader2", 
  "jrttjsbHeader3",
  "jrttjsbHeader4"],
@@ -602,9 +602,9 @@
         "type": "number",
         "desc": "需要几个账号，数字为几"
       }],
-    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/jrtt.js",
+    "repo": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js",
     "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
-    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js"
+    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js"
   }, {
     "id": "fqxs",
     "name": "番茄小说",
