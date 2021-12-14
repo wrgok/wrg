@@ -582,21 +582,21 @@
  "jrttjsbHeader4"],
     "author": "@Leaf",
     "settings": [{
-            "id": "tz",
+            "id": "jrttjsbtz",
             "name": "静默运行",
             "val": "1",
             "type": "number",
             "desc": "0为不通知，1为全部通知"
         },
        {
-        "id": "jrttsetting",
+        "id": "jrttjsbsetting",
         "name": "当前账号",
         "val": "1",
         "type": "number",
         "desc": "当前账号对应"
       },
       {
-        "id": "jrttcount",
+        "id": "jrttjsbcount",
         "name": "账号个数",
         "val": "1",
         "type": "number",
