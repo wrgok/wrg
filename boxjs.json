@@ -573,7 +573,7 @@
     "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
     "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js"
   }, {
-    "id": "jrtt",
+    "id": "jrttjsb",
     "name": "今日头条极速版1",
     "keys": [
  "jrttjsbHeader",
