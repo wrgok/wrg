@@ -851,7 +851,10 @@
     },   {
     "id": "dyjsb",
     "name": "抖音极速版",
-    "keys": ["signheader", "signcookie", "stepheader", "stepkey", "readheader", "readdkey","signheader2", "signcookie2", "stepheader2", "stepkey2", "readheader2", "readdkey2","signheader3", "signcookie3", "stepheader3", "stepkey3", "readheader3", "readdkey3"],
+    "keys": [
+"signheader",  "signcookie",  "stepheader",  "stepkey",  "readheader",  "readkey",
+"signheader2", "signcookie2", "stepheader2", "stepkey2", "readheader2", "readkey2",
+"signheader3", "signcookie3", "stepheader3", "stepkey3", "readheader3", "readkey3"],
     "author": "@Ariszy",
     "settings": [{
             "id": "dyhost",
