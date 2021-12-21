@@ -686,7 +686,7 @@
 "ysyhd14","ysybody14","cookie14","txbody14",
 "ysyhd15","ysybody15","cookie15","txbody15"],
                 "author": "@YaphetS0903",
-                    "settings": [{
+                "settings": [{
                         "id": "ysystatus",
                         "name": "当前账号",
                         "val": "1",
@@ -784,34 +784,34 @@
     "type": "number",
     "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
   }],
-                        "repo": "jzread.js",
-                            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
-                                "script": "jzread.js"
+     "repo": "jzread.js",
+     "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg", "https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.jpg"],
+     "script": "jzread.js"
   },{
     "id": "flg",
         "name": "返利购",
-            "keys": ["flgReferer","flgReferer2","flgReferer3","flgReferer4","flgReferer5","flgReferer6","flgReferer7","flgReferer8","flgReferer9","flgReferer10"],
-                "author": "@YaphetS0903",
-                    "settings": [{
-                        "id": "flgstatus",
-                        "name": "当前账号",
-                        "val": "1",
-                        "type": "number",
-                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-                    }, {
-                        "id": "flgcount",
-                        "name": "账号个数",
-                        "val": "1",
-                        "type": "number",
-                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                    }, {
-                        "id": "tz",
-                        "name": "通知",
-                        "val": "1",
-                        "type": "number",
-                        "desc": "0关闭通知，1打开通知"
-                    }],
-                        "repo": "https://github.com/YaphetS0903/JStest/blob/main/flg.js",
+        "keys": ["flgReferer","flgReferer2","flgReferer3","flgReferer4","flgReferer5","flgReferer6","flgReferer7","flgReferer8","flgReferer9","flgReferer10"],
+        "author": "@YaphetS0903",
+        "settings": [{
+        "id": "flgstatus",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+ }, {
+         "id": "flgcount",
+         "name": "账号个数",
+         "val": "1",
+         "type": "number",
+         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+ }, {
+            "id": "tz",
+            "name": "通知",
+            "val": "1",
+            "type": "number",
+            "desc": "0关闭通知，1打开通知"
+            }],
+            "repo": "https://github.com/YaphetS0903/JStest/blob/main/flg.js",
             "icons": ["https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg", "https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg"],
             "script": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/flg.js"
   },{
@@ -934,10 +934,7 @@
     "id": "jrttjsb",
     "name": "今日头条极速版1",
     "keys": [
- "jrttjsbHeader",
- "jrttjsbHeader2", 
- "jrttjsbHeader3",
- "jrttjsbHeader4"],
+ "jrttjsbHeader"],
     "author": "@Leaf",
     "settings": [{
             "id": "jrttjsbtz",
