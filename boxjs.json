@@ -133,8 +133,23 @@
       "author": "",
       "repo": "https://github.com/dompling/Script",
       "script": ""
-    } ,
-    {
+    } ,{
+      "id": "天天挖矿",
+      "name": "天天挖矿",
+      "keys": ["ttwksignurl", "ttwksignheader", "ttwksignbody"],
+      "settings": [
+        { "id": "yangtingxiao_sample", "name": "设置sample", "val": false, "type": "boolean", "desc": "设置样例" }
+      ],
+      "author": "@yangtingxiao",
+      "repo": "https://github.com/yangtingxiao/QuantumultX/tree/master/scripts/jd/",
+      "scripts":[
+        {
+          "name" : "天天挖矿",
+          "script" : "https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/ttwk/ttwk.js"
+        }
+      ],
+      "icons": ["https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/ttwk.png", "https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/ttwk.png"]
+	}, {
       "id": "JD_jr_Cookies",
       "name": "金融领豆",
       "keys": ["@jd_jr.cookies", "@jd_jr.bodys"],
