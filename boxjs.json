@@ -5,6 +5,89 @@
   "icon": "",
   "repo": "https://github.com/wrgok/wrg",
   "apps": [    {
+      "id": "10000",
+      "name": "10000",
+      "keys": ["chavy_signheader_10000"],
+      "settings": [
+        {
+          "id": "chavy_mobile_10000",
+          "name": "手机号码",
+          "val": "",
+          "type": "textarea",
+          "placeholder": "18918920000,\n18918920000",
+          "autoGrow": true,
+          "rows": 5,
+          "desc": "以英文逗号分隔多个号码, 可加回车"
+        }
+      ],
+      "author": "@wangfei021325, @chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/10000/10000.js",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/10000.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png"
+      ]
+    }, {
+    "id": "BiliManga",
+    "name": "哔哩漫画",
+    "keys": ["CookieBM"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js\">脚本注释</a></h4>"
+    ],
+    "script": "https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js",
+    "author": "@NobyDa",
+    "repo": "https://github.com/NobyDa/Script/blob/master/Bilibili-DailyBonus/Manga.js",
+    "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/manga.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/manga.png"]
+  }, {
+      "id": "videoqq",
+      "name": "腾讯视频",
+      "keys": [
+        "chavy_cookie_videoqq",
+        "chavy_auth_url_videoqq",
+        "chavy_auth_header_videoqq",
+        "chavy_msign_url_videoqq",
+        "chavy_msign_header_videoqq"
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/videoqq",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/videoqq.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png"
+      ]
+    }, {
+      "id": "NeteaseMusic",
+      "name": "网易云音乐",
+      "keys": ["chavy_cookie_neteasemusic"],
+      "settings": [
+        { "id": "CFG_neteasemusic_retryCnt", "name": "重试次数", "val": 10, "type": "text", "desc": "一直尝试签到直至出现“重复签到”标识!" },
+        {
+          "id": "CFG_neteasemusic_retryInterval",
+          "name": "重试间隔 (毫秒)",
+          "val": 500,
+          "type": "text",
+          "desc": "每次重试间隔时间 (毫秒)！"
+        }
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/neteasemusic",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/neteasemusic.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/neteasemusic.png"
+      ]
+    }, {
+      "id": "ximalaya",
+      "name": "喜马拉雅",
+      "keys": ["chavy_cookie_ximalaya"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/ximalaya",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/ximalaya.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/ximalaya.png"
+      ],
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js"
+    },{
       "id": "JD_Cookies",
       "name": "京东多账号 Ck 管理",
       "keys": ["CookiesJD"],
@@ -557,7 +640,34 @@
              "repo": "http://47.101.146.160/scripts/jzread.js",
              "icons": ["http://47.101.146.160/scripts/1.jpg", "http://47.101.146.160/scripts/1.jpg"],
              "script": "http://47.101.146.160/scripts/jzread.js"
-     },{
+     } ,{
+    "id": "flg",
+        "name": "返利购",
+            "keys": ["flgReferer","flgReferer2","flgReferer3","flgReferer4","flgReferer5","flgReferer6","flgReferer7","flgReferer8","flgReferer9","flgReferer10"],
+                "author": "@YaphetS0903",
+                    "settings": [{
+                        "id": "flgstatus",
+                        "name": "当前账号",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+                    }, {
+                        "id": "flgcount",
+                        "name": "账号个数",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                    }, {
+                        "id": "tz",
+                        "name": "通知",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "0关闭通知，1打开通知"
+                    }],
+                        "repo": "https://github.com/YaphetS0903/JStest/blob/main/flg.js",
+            "icons": ["https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg", "https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg"],
+            "script": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/flg.js"
+  },{
       "id": "txnews", 
       "name": "腾讯新闻", 
       "author": "@sunert", 
@@ -591,6 +701,56 @@
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/txnews.png", 
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/txnews.png"
       ]
+    },   {
+    "id": "dyjsb",
+    "name": "抖音极速版",
+    "keys": ["signheader", "signcookie", "stepheader", "stepkey", "readheader", "readdkey","signheader2", "signcookie2", "stepheader2", "stepkey2", "readheader2", "readdkey2","signheader3", "signcookie3", "stepheader3", "stepkey3", "readheader3", "readdkey3"],
+    "author": "@Ariszy",
+    "settings": [{
+            "id": "dyhost",
+            "name": "抖音极速版域名",
+            "val": "",
+            "type": "string",
+            "desc": ""
+        },
+         {
+        "id": "dyjsbaccount0",
+        "name": "支付宝账号1",
+        "val": "0",
+        "type": "number",
+        "desc": "测试的为手机号，邮箱不知道（为适应for循环，被迫命名dyjsbaccount0）"
+      },
+          {
+        "id": "dyjsbaccount1",
+        "name": "支付宝账号2",
+        "val": "0",
+        "type": "number",
+        "desc": "测试的为手机号，邮箱不知道"
+      },
+         {
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+      {
+        "id": "dyjsbsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      }, 
+      {
+        "id": "dyjsbcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/dyjsb.js",
+    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/dyjsb-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/dyjsb.png"],
+    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js"
     }, {
     "id": "jrtt",
     "name": "今日头条极速版",
