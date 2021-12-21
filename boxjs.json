@@ -159,8 +159,7 @@
         "JSON示例：[{phoneNumber: \"13348751678\", username: \"yaya\" }]"
       ],
       "settings": [
-        {
-          "id": "@jd_jr.cookies",
+        {"id": "@jd_jr.cookies",
           "name": "CK 列表",
           "val": "",
           "type": "textarea",
@@ -576,44 +575,38 @@
     "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youthRead.js",
     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
     "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
-  }, {
-                                "id": "txzxg",
-                                "name": "腾讯自选股APP",
-                                "keys": ["TxStockAppUrl", "TxStockAppHeader", "TxStockWxHeader"],
-                                "author": "@Leaf",
-                                "settings": [{
-                                    "id": "TxStockCash",
-                                    "name": "提现设置",
-                                    "val": "1",
-                                    "type": "number",
-                                    "desc": "0代表不提现，1代表提现1元，5代表提现5元"
-                                }, {
-                                    "id": "TxStockHelp",
-                                    "name": "分享任务设置",
-                                    "val": "1",
-                                    "type": "number",
-                                    "desc": "0关闭，1打开，默认打开"
-                                }, {
-                                    "id": "TxStockHelpOrder",
-                                    "name": "互助顺序设置",
-                                    "val": "0",
-                                    "type": "number",
-                                    "desc": "按顺序填入要帮助的用户，0代表不帮助其他用户，每个用户之间用@或者#隔开"
-                                }, {
-                                    "id": "TxStockNewbie",
-                                    "name": "新手任务设置",
-                                    "val": "0",
-                                    "type": "number",
-                                    "desc": "0关闭，1打开，默认关闭"
-                                }],
-                                "repo": "https://github.com/leafxcy/JavaScript/blob/main/txstock.js",
-                                "icons": ["https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg", "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"],
-                                "script": "https://github.com/leafxcy/JavaScript/blob/main/txstock.js",
-                                "icon": "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"
-                            },{ 
-    "id": "ysy",
-        "name": "萤石云",
-            "keys": ["ysyhd","ysybody","cookie","txbody",
+  }, {   "id": "txzxg",
+         "name": "腾讯自选股APP",
+         "keys": ["TxStockAppUrl", "TxStockAppHeader", "TxStockWxHeader"],
+         "author": "@Leaf",
+         "settings": [{
+         "id": "TxStockCash",
+         "name": "提现设置",
+         "val": "1",
+         "type": "number",
+         "desc": "0代表不提现，1代表提现1元，5代表提现5
+    }, { "id": "TxStockHelp",
+         "name": "分享任务设置",
+         "val": "1",
+         "type": "number",
+         "desc": "0关闭，1打开，默认打开"
+    }, { "id": "TxStockHelpOrder",
+         "name": "互助顺序设置",
+         "val": "0",
+         "type": "number",
+         "desc": "按顺序填入要帮助的用户，0代表不帮助其他用户，每个用户之间用@或者#隔开"
+    }, { "id": "TxStockNewbie",
+         "name": "新手任务设置",
+         "val": "0",
+         "type": "number",
+         "desc": "0关闭，1打开，默认关闭"}],
+         "repo": "https://github.com/leafxcy/JavaScript/blob/main/txstock.js",
+         "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png", "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"],
+         "script": "https://github.com/leafxcy/JavaScript/blob/main/txstock.js",
+         "icon": "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"
+    },{  "id": "ysy",
+         "name": "萤石云",
+         "keys": ["ysyhd","ysybody","cookie","txbody",
 "ysyhd2","ysybody2","cookie2","txbody2",
 "ysyhd3","ysybody3","cookie3","txbody3",
 "ysyhd4","ysybody4","cookie4","txbody4",
