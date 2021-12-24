@@ -587,7 +587,7 @@
                         "type": "number",
                         "desc": "0关闭通知，1打开通知"
                     },{
-             "id": "zzkdhdstatus",
+             "id": "zzkdstatus",
              "name": "当前账号",
              "val": "1",
              "type": "number",
