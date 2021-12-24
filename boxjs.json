@@ -578,7 +578,11 @@
   },  {
              "id": "zzkd",
              "name": "追追看点",
-             "keys": ["zzkdhd", "zzkdhd2"],
+             "keys": ["zzkdhd", "zzkdhd2",
+ "zzkdhd3", "zzkdhd4",
+ "zzkdhd5", "zzkdhd6",
+ "zzkdhd7", "zzkdhd8", 
+ "zzkdhd9", "zzkdhd10"],
              "author": "@ningmeng",
              "settings": [{
                         "id": "zzkdtz",
