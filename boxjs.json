@@ -587,14 +587,14 @@
                         "type": "number",
                         "desc": "0关闭通知，1打开通知"
                     },{
-             "id": "zzkdstatus",
+             "id": "zzkdhdstatus",
              "name": "当前账号",
              "val": "1",
              "type": "number",
              "desc": "当前账号对应"
      },
      {
-             "id": "zzkdcount",
+             "id": "zzkdhdcount",
              "name": "账号个数",
              "val": "1",
              "type": "number",
