@@ -387,12 +387,8 @@
 "zqgetbody_body12","index12",
 "zqgetbody_body13","index13",
 "zqgetbody_body14","index14",
-"zqgetbody_body15","index15",
-"zqgetbody_body16","index16",
-"zqgetbody_body17","index17",
-"zqgetbody_body18","index18",
-"zqgetbody_body19","index19"],
-    "author": "@jiuli",
+"zqgetbody_body15","index15"],
+    "author": "@ainsoflv",
     "settings": [
        {
           "id": "zqReadLog",
@@ -415,10 +411,10 @@
         "type": "number",
         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
       }
-      ],
-    "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youthRead.js",
-    "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
-    "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
+    ],
+    "repo": "https://github.com/ainsoflv/script/blob/main/yunth/youthRead.js",
+    "icons": ["https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png", "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/image/youth.png"],
+    "script": "https://raw.githubusercontent.com/ainsoflv/script/main/yunth/youthRead.js"
   },{     
       "id": "youth", 
       "name": "中青看点", 
