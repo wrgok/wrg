@@ -864,7 +864,7 @@
     "id": "jrttjsb",
     "name": "今日头条极速版1",
     "keys": [
- "kuaishou.api_st", kuaishou.api_st2],
+ "jrttjsbHeader"],
     "author": "@Leaf",
     "settings": [{
             "id": "jrttjsbtz",
