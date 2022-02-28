@@ -894,7 +894,7 @@
     "id": "ksjsb",
     "name": "快手极速版",
     "keys": [
- "kuaishou.api_st"],
+ "ksjsbCookie"],
     "author": "@Leaf",
     "settings": [{
             "id": "ksjsbtz",
