@@ -779,6 +779,80 @@
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/txnews.png"
       ]
     }, {
+    "id": "jrtt",
+    "name": "今日头条极速版",
+      "descs_html": [
+        "⚠️：签到ck农场ck7.9.9版本获取"
+       ],
+    "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey",
+"signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", 
+"signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3",
+"signurl4", "signkey4", "farmurl4", "farmkey4", "readurl4", "readkey4",
+"signurl5", "signkey5", "farmurl5", "farmkey5", "readurl5", "readkey5", 
+"signurl6", "signkey6", "farmurl6", "farmkey6", "readurl6", "readkey6"],
+    "author": "@Ariszy",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+       {
+        "id": "jrttsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "jrttcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/jrtt.js",
+    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
+    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js"
+  }, {
+    "id": "jrttjsb",
+    "name": "今日头条极速版leaf版",
+    "keys": [
+ "jrttjsbHeader"],
+    "author": "@Leaf",
+    "settings": [{
+            "id": "jrttjsbtz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        }],
+    "repo": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js",
+    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
+    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js"
+  }, {
+    "id": "ksjsb",
+    "name": "快手极速版",
+    "keys": [ "ksjsbCookie"],
+    "author": "@Leaf",
+    "settings": [{
+        "id": "ksjsbCash",
+        "name": "提现金额",
+        "val": "3",
+        "type": "number",
+        "desc": "默认提现3块, 若失败，手动接验证码提现一次"
+      }, {
+         "id": "ksjsbWithdrawTime",
+         "name": "提现时间",
+         "val": "15",
+         "type": "number",
+         "desc": "默认每天15点兑换金币和提现"
+    }],
+    "repo": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js",
+    "icons": ["https://qxnav.com/rules/QuantumultX/img/kuaishou.png", "https://qxnav.com/rules/QuantumultX/img/kuaishou.png"],
+    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js"
+  }, {
        "id": "dyjsb",
        "name": "抖音极速版",
        "keys": [
@@ -832,86 +906,6 @@
     "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/dyjsb-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/dyjsb.png"],
     "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js"
     }, {
-    "id": "jrtt",
-    "name": "今日头条极速版",
-    "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey","signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3","signurl4", "signkey4", "farmurl4", "farmkey4", "readurl4", "readkey4"],
-    "author": "@Ariszy",
-    "settings": [{
-            "id": "tz",
-            "name": "静默运行",
-            "val": "1",
-            "type": "number",
-            "desc": "0为不通知，1为全部通知"
-        },
-       {
-        "id": "jrttsetting",
-        "name": "当前账号",
-        "val": "1",
-        "type": "number",
-        "desc": "当前账号对应"
-      },
-      {
-        "id": "jrttcount",
-        "name": "账号个数",
-        "val": "1",
-        "type": "number",
-        "desc": "需要几个账号，数字为几"
-      }],
-    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/jrtt.js",
-    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
-    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js"
-  }, {
-    "id": "jrttjsb",
-    "name": "今日头条极速版1",
-    "keys": [
- "jrttjsbHeader"],
-    "author": "@Leaf",
-    "settings": [{
-            "id": "jrttjsbtz",
-            "name": "静默运行",
-            "val": "1",
-            "type": "number",
-            "desc": "0为不通知，1为全部通知"
-        },
-       {
-        "id": "jrttjsbsetting",
-        "name": "当前账号",
-        "val": "1",
-        "type": "number",
-        "desc": "当前账号对应"
-      },
-      {
-        "id": "jrttjsbcount",
-        "name": "账号个数",
-        "val": "1",
-        "type": "number",
-        "desc": "需要几个账号，数字为几"
-      }],
-    "repo": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js",
-    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
-    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js"
-  } , {
-    "id": "ksjsb",
-    "name": "快手极速版",
-    "keys": [ "ksjsbCookie"],
-    "author": "@Leaf",
-    "settings": [{
-        "id": "ksjsbCash",
-        "name": "提现金额",
-        "val": "3",
-        "type": "number",
-        "desc": "默认提现3块, 若失败，手动接验证码提现一次"
-      }, {
-         "id": "ksjsbWithdrawTime",
-         "name": "提现时间",
-         "val": "15",
-         "type": "number",
-         "desc": "默认每天15点兑换金币和提现"
-    }],
-    "repo": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js",
-    "icons": ["https://qxnav.com/rules/QuantumultX/img/kuaishou.png", "https://qxnav.com/rules/QuantumultX/img/kuaishou.png"],
-    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js"
-  }, {
     "id": "fqxs",
     "name": "番茄小说",
     "keys": ["fqxsurl", "fqxs","fqxsurl2","fqxs2","fqxsurl3","fqxs3","fqxsurl4","fqxs4","fqxsurl5","fqxs5"],
