@@ -782,14 +782,15 @@
     "id": "jrtt",
     "name": "今日头条极速版",
       "descs_html": [
-        "⚠️：签到ck农场ck7.9.9版本获取"
+        "⚠️：农场ck7.9.9版本获取"
        ],
     "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey",
 "signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", 
 "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3",
 "signurl4", "signkey4", "farmurl4", "farmkey4", "readurl4", "readkey4",
 "signurl5", "signkey5", "farmurl5", "farmkey5", "readurl5", "readkey5", 
-"signurl6", "signkey6", "farmurl6", "farmkey6", "readurl6", "readkey6"],
+"signurl6", "signkey6", "farmurl6", "farmkey6", "readurl6", "readkey6", 
+"signurl7", "signkey7", "farmurl7", "farmkey7", "readurl7", "readkey7"],
     "author": "@Ariszy",
     "settings": [{
             "id": "tz",
