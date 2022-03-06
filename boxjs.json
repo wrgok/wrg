@@ -1,6 +1,6 @@
 {
   "id": "jiuli.app.sub",
-  "name": "自用中青订阅",
+  "name": "自用订阅",
   "author": "@wrgok",
   "icon": "",
   "repo": "https://github.com/wrgok/wrg",
@@ -78,7 +78,7 @@
       ]
     }, {
       "id": "ximalaya",
-      "name": "喜马拉雅",
+      "name": "喜马拉雅签到",
       "keys": ["chavy_cookie_ximalaya"],
       "author": "@chavyleung",
       "repo": "https://github.com/chavyleung/scripts/tree/master/ximalaya",
@@ -87,8 +87,7 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/ximalaya.png"
       ],
       "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js"
-    },
-    {
+    }, {
       "id": "glados",
       "name": "GLaDOS",
       "descs_html": [
@@ -121,7 +120,7 @@
         }
       ],
       "icons": ["https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/ttwk.png", "https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/ttwk.png"]
-	},{
+   },{ 
       "id": "JD_Cookies",
       "name": "京东多账号 Ck 管理",
       "keys": ["CookiesJD"],
@@ -149,38 +148,12 @@
       "author": "",
       "repo": "https://github.com/dompling/Script",
       "script": ""
-    }, {
-      "id": "JD_jr_Cookies",
-      "name": "金融领豆",
-      "keys": ["@jd_jr.cookies", "@jd_jr.bodys"],
-      "descs_html": [
-        "请勿随意在输入框修改内容，只能通过脚本去获取cookie，若要修改，请按照JSON 格式修改（<a href=\"https://www.bejson.com/json/format\">可使用此JSON校验</a> ，或点击右上角按钮🔘进行校验(如有弹窗提示则为异常JSON)）。",
-        "仅能修改phoneNumber内容",
-        "JSON示例：[{phoneNumber: \"13348751678\", username: \"yaya\" }]"
-      ],
-      "settings": [
-        {"id": "@jd_jr.cookies",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "CK 列表 (JSON 格式)"
-        }
-      ],
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
-        "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
-      ],
-      "author": "@dompling",
-      "repo": "https://github.com/dompling/Script/blob/master/jd/jd_jr_cookie.js",
-      "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/jd_jr_sign.js"
-    }, {
-    "id": "jxcollect",
-    "name": "京喜工厂电力收取",
-    "keys": ["jxcollecturl","jxcollecturl2", "jxcollecturl3", "jxcollecturl4", "jxcollecturl5"],
-    "author": "@Ariszy",
-    "settings": [{
+     }, {
+         "id": "jxcollect",
+         "name": "京喜工厂电力收取",
+         "keys": ["jxcollecturl","jxcollecturl2", "jxcollecturl3", "jxcollecturl4", "jxcollecturl5"],
+         "author": "@Ariszy",
+         "settings": [{
             "id": "tz",
             "name": "静默运行",
             "val": "1",
@@ -781,9 +754,8 @@
     }, {
     "id": "jrtt",
     "name": "今日头条极速版",
-      "descs_html": [
-        "⚠️：农场ck7.9.9版本获取"
-       ],
+      "descs_html": 
+      [ "⚠️：农场ck7.9.9版本获取,阅读ck8.1.3宝箱ck8.3.8" ],
     "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey",
 "signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", 
 "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3",
@@ -812,6 +784,8 @@
   }, {
     "id": "jrttjsb",
     "name": "今日头条极速版leaf版",
+      "descs_html": 
+      [ "⚠️：ck8.3.8版本获取" ],
     "keys": [
  "jrttjsbHeader"],
     "author": "@Leaf",
@@ -825,117 +799,7 @@
     "repo": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js",
     "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
     "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js"
-  }, {
-    "id": "ksjsb",
-    "name": "快手极速版",
-    "keys": [ "ksjsbCookie"],
-    "author": "@Leaf",
-    "settings": [{
-        "id": "ksjsbCash",
-        "name": "提现金额",
-        "val": "3",
-        "type": "number",
-        "desc": "默认提现3块, 若失败，手动接验证码提现一次"
-      }, {
-         "id": "ksjsbWithdrawTime",
-         "name": "提现时间",
-         "val": "15",
-         "type": "number",
-         "desc": "默认每天15点兑换金币和提现"
-    }],
-    "repo": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js",
-    "icons": ["https://qxnav.com/rules/QuantumultX/img/kuaishou.png", "https://qxnav.com/rules/QuantumultX/img/kuaishou.png"],
-    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js"
-  }, {
-       "id": "dyjsb",
-       "name": "抖音极速版",
-       "keys": [
-"signheader",  "signcookie",   "readheader",  "readkey",
-"signheader2", "signcookie2",  "readheader2", "readkey2",
-"signheader3", "signcookie3",  "readheader3", "readkey3"],
-    "author": "@Ariszy",
-    "settings": [{
-            "id": "dyhost",
-            "name": "抖音极速版域名",
-            "val": "",
-            "type": "string",
-            "desc": ""
-        },
-         {
-        "id": "dyjsbaccount0",
-        "name": "支付宝账号1",
-        "val": "0",
-        "type": "number",
-        "desc": "测试的为手机号，邮箱不知道（为适应for循环，被迫命名dyjsbaccount0）"
-      },
-          {
-        "id": "dyjsbaccount1",
-        "name": "支付宝账号2",
-        "val": "0",
-        "type": "number",
-        "desc": "测试的为手机号，邮箱不知道"
-      },
-         {
-            "id": "tz",
-            "name": "静默运行",
-            "val": "1",
-            "type": "number",
-            "desc": "0为不通知，1为全部通知"
-        },
-      {
-        "id": "dyjsbsetting",
-        "name": "当前账号",
-        "val": "1",
-        "type": "number",
-        "desc": "当前账号对应"
-      }, 
-      {
-        "id": "dyjsbcount",
-        "name": "账号个数",
-        "val": "1",
-        "type": "number",
-        "desc": "需要几个账号，数字为几"
-      }],
-    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/dyjsb.js",
-    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/dyjsb-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/dyjsb.png"],
-    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/dyjsb.js"
-    }, {
-    "id": "fqxs",
-    "name": "番茄小说",
-    "keys": ["fqxsurl", "fqxs","fqxsurl2","fqxs2","fqxsurl3","fqxs3","fqxsurl4","fqxs4","fqxsurl5","fqxs5"],
-    "author": "@Ariszy",
-    "settings": [{
-            "id": "tz",
-            "name": "静默运行",
-            "val": "1",
-            "type": "number",
-            "desc": "0为不通知，1为全部通知"
-        },
-      {
-        "id": "fqxsstatus",
-        "name": "当前账号",
-        "val": "1",
-        "type": "number",
-        "desc": "当前账号对应"
-      },    
-      {
-        "id": "fqxscount",
-        "name": "账号个数",
-        "val": "1",
-        "type": "number",
-        "desc": "需要几个账号，数字为几"
-      },
-       {
-        "id": "host",
-        "name": "host",
-        "val": "ib.snssdk.com",
-        "type": "string",
-        "desc": "当前版本host"
-      } ],
-    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/fqxs.js",
-    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs.png"],
-    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js"
-  }, {
+    },{
             "id": "sqxh",
             "name": "书旗小说",
             "keys": [
@@ -995,19 +859,19 @@
                 "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png" 
            ],
             "script": "https://raw.githubusercontent. 4"
-     }, {
+        }, {
             "id": "dsj",
             "name": "电视家APP",
             "keys": ["dsjheader", "dsjtx", 
-"dsjheader2", "dsjtx2",
-"dsjheader3", "dsjtx3", 
-"dsjheader4", "dsjtx4", 
-"dsjheader5", "dsjtx5", 
-"dsjheader6", "dsjtx6", 
-"dsjheader7", "dsjtx7", 
-"dsjheader8", "dsjtx8", 
-"dsjheader9", "dsjtx9", 
-"dsjheader10", "dsjtx10"],
+            "dsjheader2", "dsjtx2",
+            "dsjheader3", "dsjtx3", 
+            "dsjheader4", "dsjtx4", 
+            "dsjheader5", "dsjtx5", 
+            "dsjheader6", "dsjtx6", 
+            "dsjheader7", "dsjtx7", 
+            "dsjheader8", "dsjtx8", 
+            "dsjheader9", "dsjtx9", 
+            "dsjheader10", "dsjtx10"],
             "author": "@ziye",
             "settings": [{
                     "id": "dsjSuffix",
@@ -1079,12 +943,11 @@
         },{
             "id": "rl",
             "name": "燃旅视频",
-            "keys": [
-"rlurl", 
-"rlurl2",
-"rlurl3", 
-"rlurl4", 
-"rlurl5"],
+            "keys": ["rlurl", 
+          "rlurl2",
+          "rlurl3", 
+          "rlurl4", 
+          "rlurl5"],
             "author": "@ziye",
             "settings": [{
                     "id": "rlSuffix",
