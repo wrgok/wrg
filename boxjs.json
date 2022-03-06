@@ -1018,22 +1018,10 @@
                 "val": "1",
                 "type": "number",
                 "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-            }, {
-                "id": "elmntfst",
-                "name": "推送控制",
-                "val": "1",
-                "type": "number",
-                "desc": "关闭，1推送,默认12点以及23点推送"
-            }, {
-                "id": "elmmsgst",
-                "name": "通知控制",
-                "val": "2",
-                "type": "number",
-                "desc": "关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
             }],
-            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/elm.js",
-            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/elm.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/elm.png"],
-            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/elm.js"
+            "repo": "https://gitee.com/xiecoll/radish-script/raw/master/ELM/lb_elm.js",
+            "icons": ["https://qxnav.com/rules/QuantumultX/img/elem.png", "https://qxnav.com/rules/QuantumultX/img/elem.png"],
+            "script": "https://gitee.com/xiecoll/radish-script/raw/master/ELM/lb_elm.js"
         }
     ]
 }
