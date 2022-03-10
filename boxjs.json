@@ -558,13 +558,7 @@
          "name": "腾讯自选股APP",
          "keys": ["TxStockAppUrl", "TxStockAppHeader", "TxStockWxHeader"],
          "author": "@Leaf",
-         "settings": [ {
-    "id": "notifyFlag",
-    "name": "通知",
-    "val": "0",
-    "type": "number",
-    "desc": "0默认关闭通知，1打开通知"
-    },{
+         "settings": [{
          "id": "TxStockCash",
          "name": "提现设置",
          "val": "1",
