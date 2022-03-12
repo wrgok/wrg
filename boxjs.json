@@ -28,6 +28,94 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png"
       ]
     }, {
+      "id": "birthday",
+      "name": "生日计时",
+      "keys": [
+        "@birthday.mediaImg",
+        "@birthday.username",
+        "@birthday.time",
+        "@birthday.pDefault",
+        "@birthday.pCycle",
+        "@birthday.nongli",
+        "@birthday.eday",
+        "@birthday.loveWords"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/birthday.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/birthday.png"
+      ],
+      "author": "@dompling",
+      "repo": "https://github.com/dompling/Script/blob/master/birthdayCountDown/index.js",
+      "script": "https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js",
+      "settings": [
+        {
+          "id": "@birthday.nongli",
+          "name": "农历",
+          "val": true,
+          "type": "boolean"
+        },
+        {
+          "id": "@birthday.loveWords",
+          "name": "情话",
+          "val": true,
+          "type": "boolean"
+        },
+        {
+          "id": "@birthday.username",
+          "name": "姓名",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 2,
+          "placeholder": "必填姓名"
+        },
+        {
+          "id": "@birthday.time",
+          "name": "出生年月",
+          "val": null,
+          "type": "text",
+          "rows": 2,
+          "placeholder": "必填内容，出身年月格式为：年-月-日。"
+        },
+        {
+          "id": "@birthday.mediaImg",
+          "name": "内容媒体图",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 2,
+          "placeholder": "默认取的随机推送图片",
+          "desc": "非必填"
+        },
+        {
+          "id": "@birthday.eday",
+          "name": "情侣相识日期",
+          "val": null,
+          "type": "text",
+          "rows": 2,
+          "placeholder": "相识的日期",
+          "desc": "非必填"
+        },
+        {
+          "id": "@birthday.pDefault",
+          "name": "生理期",
+          "val": null,
+          "type": "text",
+          "rows": 2,
+          "placeholder": "最近一次生理期时间",
+          "desc": "非必填"
+        },
+        {
+          "id": "@birthday.pCycle",
+          "name": "生理期区间",
+          "val": null,
+          "type": "text",
+          "rows": 2,
+          "placeholder": "生理期区间，最近一次生理期开始计算。",
+          "desc": "非必填；计算不准时，请重填生理期。"
+        }
+      ]
+    }, {
     "id": "BiliManga",
     "name": "哔哩漫画",
     "keys": ["CookieBM"],
