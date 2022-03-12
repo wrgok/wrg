@@ -829,6 +829,23 @@
     "repo": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js",
     "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
     "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js"
+    } , {
+    "id": "ddgy",
+    "name": "滴滴果园leaf版",
+      "descs_html": 
+      [ "⚠️：入口：微信->我的->服务->滴滴出行->种水果,部分微信没有" ],
+    "keys": ["ddgyToken"],
+    "author": "@Leaf",
+    "settings": [{
+            "id": "ddgytz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        }],
+    "repo": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ddgy.js",
+    "icons": ["https://qxnav.com/rules/QuantumultX/img/didi.png", "https://qxnav.com/rules/QuantumultX/img/didi.png"],
+    "script": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/ddgy.js"
     },{
             "id": "sqxh",
             "name": "书旗小说",
