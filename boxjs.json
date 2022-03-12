@@ -89,30 +89,12 @@
         },
         {
           "id": "@birthday.eday",
-          "name": "情侣相识日期",
+          "name": "相识日期",
           "val": null,
           "type": "text",
           "rows": 2,
           "placeholder": "相识的日期",
           "desc": "非必填"
-        },
-        {
-          "id": "@birthday.pDefault",
-          "name": "生理期",
-          "val": null,
-          "type": "text",
-          "rows": 2,
-          "placeholder": "最近一次生理期时间",
-          "desc": "非必填"
-        },
-        {
-          "id": "@birthday.pCycle",
-          "name": "生理期区间",
-          "val": null,
-          "type": "text",
-          "rows": 2,
-          "placeholder": "生理期区间，最近一次生理期开始计算。",
-          "desc": "非必填；计算不准时，请重填生理期。"
         }
       ]
     }, {
