@@ -472,6 +472,30 @@
         "val": "0",
         "type": "number",
         "desc": "账号5阅读数据总行数"
+      } , {
+        "id": "read_count6",
+        "name": "账号6总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号6阅读数据总行数"
+      } , {
+        "id": "read_count7",
+        "name": "账号7总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号7阅读数据总行数"
+      } , {
+        "id": "read_count8",
+        "name": "账号8总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号8阅读数据总行数"
+      } , {
+        "id": "read_count9",
+        "name": "账号9总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号9阅读数据总行数"
       }],
       "repo": "https://github.com/ztxtop/x/blob/main/zqread.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
