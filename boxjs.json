@@ -721,12 +721,24 @@
   "keys": ["ksCookie"],
   "author": "@leafxcy",
   "settings": [{
-    "id": "ksSuffix",
-    "name": "当前账号",
-    "val": "1",
+          "id": "ksWithdrawTime",
+          "name": "提现时间",
+          "val": "14",
+          "type": "number",
+          "desc": "默认14点"
+   }, {
+    "id": "ksCash",
+    "name": "提现金额",
+    "val": "2",
     "type": "number",
-    "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-  }, {
+    "desc": "默认2元到支付宝，如果提现失败，手动接验证码提现一次"
+   },{
+       "id": "ksNotify",
+       "name": "通知",
+       "val": "1",
+       "type": "number",
+       "desc": "0/1/2可以控制不通知/提现时间通知/每次运行都通知，默认提现时间通知"
+    },{
     "id": "ksCount",
     "name": "账号个数",
     "val": "1",
