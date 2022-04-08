@@ -264,7 +264,8 @@
  "youthheader_zq6",  "readtime_zq6",   
  "youthheader_zq7",  "readtime_zq7",  
  "youthheader_zq8",  "readtime_zq8", 
- "youthheader_zq9",  "readtime_zq9"], 
+ "youthheader_zq9",  "readtime_zq9", 
+ "youthheader_zq10",  "readtime_zq10"], 
       "descs_html": [
         "1、打开中青APP，进入“我的”=>“任务中心”抓取 youthheader_zq 数据、 进入任务中心里的看看赚，点任务进入页面即可获取看看赚数据、 进入看看赚页面顶部的浏览赚页面，点任务跳转浏览器时可获取浏览赚数据（中青app有可能不发起任务开始请求，那将无法抓包）",
         "2、在首页随便找个文章看看，超过1分钟后返回上一页面可获取时长数据，首次获取或时长数据记录的有效时间大于60秒时才会进行通知提醒",
@@ -355,7 +356,8 @@
 "youth_banner6",
 "youth_banner7", 
 "youth_banner8", 
-"youth_banner9"],
+"youth_banner9", 
+"youth_banner10"],
       "author": "@ztxtop",
       "settings": [{
         "id": "ckFormat",
@@ -442,7 +444,7 @@
         "val": "1",
         "type": "text",
         "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
-      },{
+      }, {
         "id": "read_count",
         "name": "账号1总阅读数",
         "val": "0",
@@ -472,30 +474,36 @@
         "val": "0",
         "type": "number",
         "desc": "账号5阅读数据总行数"
-      } , {
+      }, {
         "id": "read_count6",
         "name": "账号6总阅读数",
         "val": "0",
         "type": "number",
         "desc": "账号6阅读数据总行数"
-      } , {
+      }, {
         "id": "read_count7",
         "name": "账号7总阅读数",
         "val": "0",
         "type": "number",
         "desc": "账号7阅读数据总行数"
-      } , {
+      }, {
         "id": "read_count8",
         "name": "账号8总阅读数",
         "val": "0",
         "type": "number",
         "desc": "账号8阅读数据总行数"
-      } , {
+      }, {
         "id": "read_count9",
         "name": "账号9总阅读数",
         "val": "0",
         "type": "number",
         "desc": "账号9阅读数据总行数"
+      }, {
+        "id": "read_count10",
+        "name": "账号10总阅读数",
+        "val": "0",
+        "type": "number",
+        "desc": "账号10阅读数据总行数"
       }],
       "repo": "https://github.com/ztxtop/x/blob/main/zqread.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
