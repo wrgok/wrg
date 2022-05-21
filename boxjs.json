@@ -816,35 +816,8 @@
                 "vediogoldprizeck1",
                 "vediodrawprizeck1",
                 "drawck1",
-                "userinfock1",
-
-                "readck2",
-                "receivecoinck2",
-                "vediogoldprizeck2",
-                "vediodrawprizeck2",
-                "drawck2",
-                "userinfock2",
-
-                "readck3",
-                "receivecoinck3",
-                "vediogoldprizeck3",
-                "vediodrawprizeck3",
-                "drawck3",
-                "userinfock3",
-
-                "readck4",
-                "receivecoinck4",
-                "vediogoldprizeck4",
-                "vediodrawprizeck4",
-                "drawck4",
-                "userinfock4",
-
-                "readck5",
-                "receivecoinck5",
-                "vediogoldprizeck5",
-                "vediodrawprizeck5",
-                "drawck5",
-                "userinfock5"
+                "userinfock1"
+ 
             ],
             "author": "@caixukun1",
             "settings": [{
