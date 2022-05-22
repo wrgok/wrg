@@ -674,6 +674,53 @@
     "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
     "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js"
   }, {
+    "id": "fqxs",
+    "name": "番茄小说",
+    "keys": [
+"fqxsurl", "fqxs",
+"fqxsurl2","fqxs2",
+"fqxsurl3","fqxs3",
+"fqxsurl4","fqxs4",
+"fqxsurl5","fqxs5",
+"fqxsurl6","fqxs6",
+"fqxsurl7","fqxs7",
+"fqxsurl8","fqxs8",
+"fqxsurl9","fqxs9",
+"fqxsurl10","fqxs10",
+"fqxsurl11","fqxs11"],
+    "author": "@Ariszy",
+    "settings": [{
+            "id": "tz",
+            "name": "静默运行",
+            "val": "1",
+            "type": "number",
+            "desc": "0为不通知，1为全部通知"
+        },
+      {
+        "id": "fqxsstatus",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },    
+      {
+        "id": "fqxscount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      },
+       {
+        "id": "host",
+        "name": "host",
+        "val": "ib.snssdk.com",
+        "type": "string",
+        "desc": "当前版本host"
+      } ],
+    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/fqxs.js",
+    "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs.png"],
+    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js"
+  }, {
     "id": "jrttjsb",
     "name": "今日头条极速版leaf版",
       "descs_html": 
