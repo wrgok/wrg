@@ -674,11 +674,11 @@
     "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
     "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js"
   }, {
-    "id": "fqxs",
-    "name": "番茄小说",
+    "id": "xfqxs",
+    "name": "🍅番茄小说",
     "keys": [
-"fqxsurl", "fqxsbxurl", "xfqxs", "host", "fqxscookie", "fqxstoken", "fqxsua",
-"fqxsurl2","fqxsbxurl2", "xfqxs2", "host2", "fqxscookie2", "fqxstoken2", "fqxsua2",
+"fqxsurl", "fqxsbxurl", "fqxscookie", "fqxstoken", "fqxsua",
+"fqxsurl2","fqxsbxurl2", "fqxscookie2", "fqxstoken2", "fqxsua2",
 "fqxsurl3","fqxs3",
 "fqxsurl4","fqxs4",
 "fqxsurl5","fqxs5",
@@ -697,14 +697,14 @@
             "desc": "0为不通知，1为全部通知"
         },
       {
-        "id": "fqxsstatus",
+        "id": "xfqxsstatus",
         "name": "当前账号",
         "val": "1",
         "type": "number",
         "desc": "当前账号对应"
       },    
       {
-        "id": "fqxscount",
+        "id": "xfqxscount",
         "name": "账号个数",
         "val": "1",
         "type": "number",
