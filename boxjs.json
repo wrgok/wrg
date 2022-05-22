@@ -677,8 +677,8 @@
     "id": "fqxs",
     "name": "番茄小说",
     "keys": [
-"fqxsurl", "fqxs",
-"fqxsurl2","fqxs2",
+"fqxsurl", "fqxsbxurl", "xfqxs", "host", "fqxscookie", "fqxstoken", "fqxsua",
+"fqxsurl2","fqxsbxurl2", "xfqxs2", "host2", "fqxscookie2", "fqxstoken2", "fqxsua2",
 "fqxsurl3","fqxs3",
 "fqxsurl4","fqxs4",
 "fqxsurl5","fqxs5",
