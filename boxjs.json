@@ -717,9 +717,9 @@
         "type": "string",
         "desc": "当前版本host"
       } ],
-    "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/fqxs.js",
+    "repo": "https://raw.githubusercontent.com/zhiyu0215/Script/main/QX_Task/fqxs/fqxs.js",
     "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs.png"],
-    "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js"
+    "script": "https://raw.githubusercontent.com/zhiyu0215/Script/main/QX_Task/fqxs/fqxs.js"
   }, {
     "id": "jrttjsb",
     "name": "今日头条极速版leaf版",
