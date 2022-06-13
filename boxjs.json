@@ -929,6 +929,76 @@
     "script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.js",
     "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi-mini.png", "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png"]
   }, {
+            "id": "shuqi",
+            "name": "书旗小说APP",
+            "keys": ["shuqiuserurl", "shuqisyurl", "shuqisybody", "shuqispbody", "shuqiscbody", "shuqiydbody", "shuqiqdbody",   "shuqirwbody", "shuqifxbody", "shuqisprwurl", "shuqijlbody", "shuqisqjlbody", "shuqicjyurl", "shuqicjcsbody", "shuqicjbody", "shuqijsspbody", "shuqijsydurl", "shuqijsydbody", "shuqijsqdbody", "shuqijsqdspyurl", "shuqijsqdspbody",   "shuqijsrwbody", "shuqijsfxbody", "shuqijsbookurl", "shuqijsbookbody", "shuqijssprwurl", 
+"shuqiuserurl2", "shuqisyurl2", "shuqisybody2", "shuqispbody2", "shuqiscbody2", "shuqiydbody2", "shuqiqdbody2",   "shuqirwbody2", "shuqifxbody2", "shuqisprwurl2", "shuqijlbody2", "shuqisqjlbody2", "shuqicjyurl2", "shuqicjcsbody2", "shuqicjbody2", "shuqijsspbody2", "shuqijsydurl2", "shuqijsydbody2", "shuqijsqdbody2", "shuqijsqdspyurl2", "shuqijsqdspbody2",   "shuqijsrwbody2", "shuqijsfxbody2", "shuqijsbookurl2", "shuqijsbookbody2", "shuqijssprwurl2", 
+"shuqiuserurl3", "shuqisyurl3", "shuqisybody3", "shuqispbody3", "shuqiscbody3", "shuqiydbody3", "shuqiqdbody3",   "shuqirwbody3", "shuqifxbody3", "shuqisprwurl3", "shuqijlbody3", "shuqisqjlbody3", "shuqicjyurl3", "shuqicjcsbody3", "shuqicjbody3", "shuqijsspbody3", "shuqijsydurl3", "shuqijsydbody3", "shuqijsqdbody3", "shuqijsqdspyurl3", "shuqijsqdspbody3",   "shuqijsrwbody3", "shuqijsfxbody3", "shuqijsbookurl3", "shuqijsbookbody3", "shuqijssprwurl3", 
+"shuqiuserurl4", "shuqisyurl4", "shuqisybody4", "shuqispbody4", "shuqiscbody4", "shuqiydbody4", "shuqiqdbody4",   "shuqirwbody4", "shuqifxbody4", "shuqisprwurl4", "shuqijlbody4", "shuqisqjlbody4", "shuqicjyurl4", "shuqicjcsbody4", "shuqicjbody4", "shuqijsspbody4", "shuqijsydurl4", "shuqijsydbody4", "shuqijsqdbody4", "shuqijsqdspyurl4", "shuqijsqdspbody4",   "shuqijsrwbody4", "shuqijsfxbody4", "shuqijsbookurl4", "shuqijsbookbody4", "shuqijssprwurl4", 
+"shuqiuserurl5", "shuqisyurl5", "shuqisybody5", "shuqispbody5", "shuqiscbody5", "shuqiydbody5", "shuqiqdbody5",   "shuqirwbody5", "shuqifxbody5", "shuqisprwurl5", "shuqijlbody5", "shuqisqjlbody5", "shuqicjyurl5", "shuqicjcsbody5", "shuqicjbody5", "shuqijsspbody5", "shuqijsydurl5", "shuqijsydbody5", "shuqijsqdbody5", "shuqijsqdspyurl5", "shuqijsqdspbody5",   "shuqijsrwbody5", "shuqijsfxbody5", "shuqijsbookurl5", "shuqijsbookbody5", "shuqijssprwurl5", 
+"shuqiuserurl6", "shuqisyurl6", "shuqisybody6", "shuqispbody6", "shuqiscbody6", "shuqiydbody6", "shuqiqdbody6",   "shuqirwbody6", "shuqifxbody6", "shuqisprwurl6", "shuqijlbody6", "shuqisqjlbody6", "shuqicjyurl6", "shuqicjcsbody6", "shuqicjbody6", "shuqijsspbody6", "shuqijsydurl6", "shuqijsydbody6", "shuqijsqdbody6", "shuqijsqdspyurl6", "shuqijsqdspbody6",   "shuqijsrwbody6", "shuqijsfxbody6", "shuqijsbookurl6", "shuqijsbookbody6", "shuqijssprwurl6", 
+"shuqiuserurl7", "shuqisyurl7", "shuqisybody7", "shuqispbody7", "shuqiscbody7", "shuqiydbody7", "shuqiqdbody7",   "shuqirwbody7", "shuqifxbody7", "shuqisprwurl7", "shuqijlbody7", "shuqisqjlbody7", "shuqicjyurl7", "shuqicjcsbody7", "shuqicjbody7", "shuqijsspbody7", "shuqijsydurl7", "shuqijsydbody7", "shuqijsqdbody7", "shuqijsqdspyurl7", "shuqijsqdspbody7",   "shuqijsrwbody7", "shuqijsfxbody7", "shuqijsbookurl7", "shuqijsbookbody7", "shuqijssprwurl7", 
+"shuqiuserurl8", "shuqisyurl8", "shuqisybody8", "shuqispbody8", "shuqiscbody8", "shuqiydbody8", "shuqiqdbody8",   "shuqirwbody8", "shuqifxbody8", "shuqisprwurl8", "shuqijlbody8", "shuqisqjlbody8", "shuqicjyurl8", "shuqicjcsbody8", "shuqicjbody8", "shuqijsspbody8", "shuqijsydurl8", "shuqijsydbody8", "shuqijsqdbody8", "shuqijsqdspyurl8", "shuqijsqdspbody8",   "shuqijsrwbody8", "shuqijsfxbody8", "shuqijsbookurl8", "shuqijsbookbody8", "shuqijssprwurl8", 
+"shuqiuserurl9", "shuqisyurl9", "shuqisybody9", "shuqispbody9", "shuqiscbody9", "shuqiydbody9", "shuqiqdbody9",   "shuqirwbody9", "shuqifxbody9", "shuqisprwurl9", "shuqijlbody9", "shuqisqjlbody9", "shuqicjyurl9", "shuqicjcsbody9", "shuqicjbody9", "shuqijsspbody9", "shuqijsydurl9", "shuqijsydbody9", "shuqijsqdbody9", "shuqijsqdspyurl9", "shuqijsqdspbody9",   "shuqijsrwbody9", "shuqijsfxbody9", "shuqijsbookurl9", "shuqijsbookbody9", "shuqijssprwurl9", 
+"shuqiuserurl10", "shuqisyurl10", "shuqisybody10", "shuqispbody10", "shuqiscbody10", "shuqiydbody10", "shuqiqdbody10",   "shuqirwbody10", "shuqifxbody10", "shuqisprwurl10", "shuqijlbody10", "shuqisqjlbody10",  "shuqicjyurl10", "shuqicjcsbody10", "shuqicjbody10", "shuqijsspbody10", "shuqijsydurl10", "shuqijsydbody10", "shuqijsqdbody10", "shuqijsqdspyurl10", "shuqijsqdspbody10",   "shuqijsrwbody10", "shuqijsfxbody10", "shuqijsbookurl10", "shuqijsbookbody10", "shuqijssprwurl10", 
+"shuqiuserurl11", "shuqisyurl11", "shuqisybody11", "shuqispbody11", "shuqiscbody11", "shuqiydbody11", "shuqiqdbody11",   "shuqirwbody11", "shuqifxbody11", "shuqisprwurl11", "shuqijlbody11", "shuqisqjlbody11",  "shuqicjyurl11", "shuqicjcsbody11", "shuqicjbody11", "shuqijsspbody11", "shuqijsydurl11", "shuqijsydbody11", "shuqijsqdbody11", "shuqijsqdspyurl11", "shuqijsqdspbody11",   "shuqijsrwbody11", "shuqijsfxbody11", "shuqijsbookurl11", "shuqijsbookbody11", "shuqijssprwurl11", 
+"shuqiuserurl12", "shuqisyurl12", "shuqisybody12", "shuqispbody12", "shuqiscbody12", "shuqiydbody12", "shuqiqdbody12",   "shuqirwbody12", "shuqifxbody12", "shuqisprwurl12", "shuqijlbody12", "shuqisqjlbody12",  "shuqicjyurl12", "shuqicjcsbody12", "shuqicjbody12", "shuqijsspbody12", "shuqijsydurl12", "shuqijsydbody12", "shuqijsqdbody12", "shuqijsqdspyurl12", "shuqijsqdspbody12",   "shuqijsrwbody12", "shuqijsfxbody12", "shuqijsbookurl12", "shuqijsbookbody12", "shuqijssprwurl12", 
+"shuqiuserurl13", "shuqisyurl13", "shuqisybody13", "shuqispbody13", "shuqiscbody13", "shuqiydbody13", "shuqiqdbody13",   "shuqirwbody13", "shuqifxbody13", "shuqisprwurl13", "shuqijlbody13", "shuqisqjlbody13",  "shuqicjyurl13", "shuqicjcsbody13", "shuqicjbody13", "shuqijsspbody13", "shuqijsydurl13", "shuqijsydbody13", "shuqijsqdbody13", "shuqijsqdspyurl13", "shuqijsqdspbody13",   "shuqijsrwbody13", "shuqijsfxbody13", "shuqijsbookurl13", "shuqijsbookbody13", "shuqijssprwurl13"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "shuqiSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "shuqiCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "shuqiXH",
+                    "name": "循环获取CK",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "shuqiSC",
+                    "name": "单刷时长控制",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "0关闭 1开启,默认关闭"
+                },
+                {
+                    "id": "shuqinotifyttt",
+                    "name": "推送控制",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0关闭，1推送,默认12点以及23点推送"
+                },
+                {
+                    "id": "shuqinotifyInterval",
+                    "name": "通知控制",
+                    "val": "2",
+                    "type": "number",
+                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                },
+                {
+                    "id": "shuqiMinutes",
+                    "name": "推送-通知 分钟控制",
+                    "val": "10",
+                    "type": "number",
+                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.js"
+        }, {
             "id": "dsj",
             "name": "电视家APP",
             "keys": ["dsjheader", "dsjtx", 
