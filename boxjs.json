@@ -953,7 +953,8 @@
                     "val": "2",
                     "type": "number",
                     "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
-                },{
+                },
+                 {
                     "id": "shuqiSuffix",
                     "name": "当前账号",
                     "val": "1",
@@ -966,7 +967,7 @@
                     "val": "1",
                     "type": "number",
                     "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                },
+                }
                
             ],
             "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/shuqi.js",
