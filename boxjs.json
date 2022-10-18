@@ -888,6 +888,36 @@
            ],
             "script": "https://raw.githubusercontent. 4"
         } , {
+            "id": "sqxh",
+            "name": "书旗小说",
+            "keys": [
+"receivecoinck1", "vediogoldprizeck1","userinfock1",
+"readck2","receivecoinck2", "vediogoldprizeck2","vediodrawprizeck2", "drawck2", "userinfock2"
+            ],
+            "author": "@caixukun1",
+            "settings": [{
+                    "id": "sqxs",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+                }, {
+                    "id": "CountNumber",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                }
+            ],
+            "repo": "https://raw.githubusercontent.com/",
+            "icons": [
+                "https://s3.ax1x.com/2021/02/06/yYzYWR.png",
+                "https://s3.ax1x.com/2021/02/06/yYzYWR.png"
+            ],
+            "script": "https://raw.githubusercontent.com/"
+        }
+    ]
+},{
     "id": "shuqiapp",
     "name": "舒淇想说",
     "keys": [
