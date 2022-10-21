@@ -217,11 +217,10 @@
       "repo": "https://github.com/dompling/Script",
       "script": ""
      }, { 
-      "id": "QM_Cookies",
+      "id": "qmxs",
       "name": "七猫",
       "keys": ["qmxsCookie"],
       "descs_html": [
-
 ],
       "settings": [
         {
