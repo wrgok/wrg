@@ -216,7 +216,34 @@
       "author": "",
       "repo": "https://github.com/dompling/Script",
       "script": ""
-     }, {
+     }, { 
+      "id": "QM_Cookies",
+      "name": "七猫",
+      "keys": ["qmxsCookie"],
+      "descs_html": [
+"抓首页签到里的xiaoshuo.wtzw.com  域名 header 里面 cookie 的值 跟 header 里面 Authorization  的值,
+cookie   可以填完整的cookie   也可以只填  cookie 里面的T=xxx；的值  【IOS 安卓 通用】
+数据之间以#号隔开,cookie#Authorization填入 qmxsCookie 里面  多账户 @ 或者回车分割"
+],
+      "settings": [
+        {
+          "id": "qmxsCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "CK 列表 (JSON 格式)"
+        }
+      ],
+      "icons": [
+        "",
+        ""
+      ],
+      "author": "",
+      "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/qm.js",
+      "script": "https://raw.githubusercontent.com/wrgok/wrg/main/qm.js"
+     },{
          "id": "jxcollect",
          "name": "京喜工厂电力收取",
          "keys": ["jxcollecturl","jxcollecturl2", "jxcollecturl3", "jxcollecturl4", "jxcollecturl5"],
