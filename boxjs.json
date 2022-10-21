@@ -221,9 +221,7 @@
       "name": "七猫",
       "keys": ["qmxsCookie"],
       "descs_html": [
-"抓首页签到里的xiaoshuo.wtzw.com  域名 header 里面 cookie 的值 跟 header 里面 Authorization  的值,
-cookie   可以填完整的cookie   也可以只填  cookie 里面的T=xxx；的值  【IOS 安卓 通用】
-数据之间以#号隔开,cookie#Authorization填入 qmxsCookie 里面  多账户 @ 或者回车分割"
+
 ],
       "settings": [
         {
@@ -367,7 +365,8 @@ cookie   可以填完整的cookie   也可以只填  cookie 里面的T=xxx；的
         "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
       }],
       "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youth.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", 
+      "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
     },     {
       "id": "youthBanner",
