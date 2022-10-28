@@ -1,5 +1,6 @@
 /*
-七猫免费小说  【一天1-2元】
+七猫免费小说  【一天1-2元】, 提现需要填写跟微信同名得名字
+
 
 抓xiaoshuo.wtzw.com  域名 header 里面 cookie 的值 跟 header 里面 Authorization  的值
 
