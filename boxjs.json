@@ -244,7 +244,8 @@
       "id": "zssq",
       "name": "追书神器",
       "keys": ["zssqCookie"],
-      "descs_html": [ "注：一机一号，不要开分身之类的，捉*.zhuishushenqi.com的包，把url里面的token填到zssqCookie，多账号换行或者@区分隔开"
+      "descs_html": [
+
 ],
       "settings": [
         {
