@@ -241,6 +241,30 @@
       "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/qm.js",
       "script": "https://raw.githubusercontent.com/wrgok/wrg/main/qm.js"
      } , { 
+      "id": "elm",
+      "name": "饿了么",
+      "keys": ["elmCookie"],
+      "descs_html": [
+],
+      "settings": [
+        {
+          "id": "elmCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "CK 列表 (JSON 格式)"
+        }
+      ],
+      "icons": [
+        "",
+        ""
+      ],
+      "author": "",
+      "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js",
+      "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js"
+     } , { 
       "id": "zssq",
       "name": "追书神器",
       "keys": ["zssqCookie"],
