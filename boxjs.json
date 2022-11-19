@@ -289,6 +289,31 @@
       "author": "",
       "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/zssq.js",
       "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/zssq.js"
+     },  { 
+      "id": "dyjs",
+      "name": "抖音极速",
+      "keys": ["dyjsAPP"],
+      "descs_html": [
+
+],
+      "settings": [
+        {
+          "id": "zssqCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "CK 列表 (JSON 格式)"
+        }
+      ],
+      "icons": [
+        "",
+        ""
+      ],
+      "author": "",
+      "repo": "https://raw.githubusercontent.com/lynnhuel/root/main/%E6%8A%96%E9%9F%B3%E6%9E%81%E9%80%9F%E7%89%88/%E6%8A%96%E9%9F%B3%E6%9E%81%E9%80%9F%E7%89%88.js",
+      "script": "https://raw.githubusercontent.com/lynnhuel/root/main/%E6%8A%96%E9%9F%B3%E6%9E%81%E9%80%9F%E7%89%88/%E6%8A%96%E9%9F%B3%E6%9E%81%E9%80%9F%E7%89%88.js"
      },{
          "id": "jxcollect",
          "name": "京喜工厂电力收取",
