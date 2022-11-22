@@ -289,6 +289,31 @@
       "author": "",
       "repo": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/zssq.js",
       "script": "https://raw.githubusercontent.com/leafTheFish/DeathNote/main/zssq.js"
+     } , { 
+      "id": "kg",
+      "name": "酷狗音乐",
+      "keys": ["kgyy"],
+      "descs_html": [
+
+],
+      "settings": [
+        {
+          "id": "kgyy",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "CK 列表 (JSON 格式)"
+        }
+      ],
+      "icons": [
+        "",
+        ""
+      ],
+      "author": "",
+      "repo": "https://raw.githubusercontent.com/kk1906/HUAWEI/main/%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90.js",
+      "script": "https://raw.githubusercontent.com/kk1906/HUAWEI/main/%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90.js"
      },  { 
       "id": "dyjs",
       "name": "抖音极速",
